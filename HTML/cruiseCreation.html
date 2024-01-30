@@ -1,0 +1,124 @@
+<!--
+    e-log book cruise creation page
+
+    first page
+    Author: Forde Nedimović
+    Creation Date: 2024/01/22 
+    Modified Date: yyyy/mm/dd
+
+    Filename:   cruiseCreation.html
+-->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+		<meta name="description" content="The cruise creation page for the e-log book">
+		<meta name="keywords" content="login, first,">
+		<meta name="author" content="Forde Nedimović">
+		<title>E-Log Curise Creation</title>
+        <link href="..\CSS\base.css" rel="stylesheet">
+        <link href="..\CSS\cruiseCreate.css" rel="stylesheet">
+    </head>
+
+    <body>
+         <!-- Header Section -->
+         <header>
+            <!-- nav Section -->
+            <section class="nav">
+                <ul class="menu">
+                  <li><a href="login.html">Login Out</a></li>
+                  <li><a href="createChoose.html">Home</a></li>
+                  <li><a href="TBD.html">Cruises</a></li>
+                </ul>
+            </section>
+            <!-- sav Section end -->
+        </header>
+        <!-- Header Section End -->
+
+        
+        <!-- fillout Section -->
+        <section id="formfill">
+
+            <div class="formfillFlex-container">
+                
+                <div class="formfillText-container">
+
+                    <br>
+                    <label for="sName"><b>Ship Name</b></label><br>
+                    <input type="text" placeholder="Enter Ship Name" name="sName" required>
+
+                    <br><br><br>
+
+                    <label for="sID"><b>Ship ID</b></label><br>
+                    <input type="text" placeholder="Enter Ship ID" name="sID" required>
+
+                    <br><br><br>
+
+                    <label for="cID"><b>Cruise ID</b></label><br>
+                    <input type="text" placeholder="Enter Cruise ID" name="cID" required>
+                    <br><br><br>
+
+                    <label for="dpName"><b>Departure Port Name</b></label><br>
+                    <input type="text" placeholder="Enter Port of Departure" name="pName" required>
+                    <br><br><br>
+
+                    <label for="dpName"><b>Arival Port Name</b></label><br>
+                    <input type="text" placeholder="Enter Port of final Arival" name="dpName" required>
+                    <br><br><br>
+
+                    <label for="disc"><b>Ship Discription</b></label><br>
+                    <input type="text" placeholder="Enter Ship Discription" name="disc" required>
+
+                </div>
+                <!-- Sub Flex Container End -->
+
+            </div>
+            <!-- Flex Container End -->
+
+        </section>
+        <!-- fillout Section End -->
+        
+        <!-- dropdown Section -->
+        <section id="formfill">
+
+            <div class="formfillFlex-container">
+                
+                <div class="formfillText-container">
+
+                    <h1>Example: TESTING List</h1>
+                        <div id="Instuments">
+                        <form v-on:submit.prevent="addItem">
+                            <p>
+                            List of Instuments brough on cruise
+                            <input type="text" required placeholder="Instument Name" v-model="itemName">
+                            </p>
+                            <button type="submit">Add Instuments</button>
+                        </form>
+
+                        <div class = "TEST">
+                            <p>TEST list:</p>
+                            <ul>
+                                <li v-for="item in InstumentsList">{{ item.name }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Sub Flex Container End -->
+
+            </div>
+            <!-- Flex Container End -->
+
+        </section>
+        <!-- dropdown Section End -->
+
+        </section>
+        <!-- Section End -->
+        
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="..\javascript\cruiseCreationList.js"></script>
+
+    </body>
+</html>
