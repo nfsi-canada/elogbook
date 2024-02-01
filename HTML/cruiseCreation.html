@@ -69,7 +69,7 @@
                     <br><br><br>
 
                     <label for="disc"><b>Ship Discription</b></label><br>
-                    <input type="text" placeholder="Enter Ship Discription" name="disc" required>
+                    <input type="text" placeholder="Enter Ship Discription" name="disc" required> 
 
                 </div>
                 <!-- Sub Flex Container End -->
@@ -87,26 +87,41 @@
                 
                 <div class="formfillText-container">
 
-                    <h1>Example: TESTING List</h1>
-                        <div id="Instuments">
-                        <form v-on:submit.prevent="addItem">
-                            <p>
-                            List of Instuments brough on cruise
-                            <input type="text" required placeholder="Instument Name" v-model="itemName">
-                            </p>
-                            <button type="submit">Add Instuments</button>
+                    <div id="forms">
+
+                        <form id="Instruments">
+                            
+                            <h2>Instruments</h2>
+                            <ol id="zone"></ol>
+
+                            <input type="text" id="Instrument" placeholder="Instrument Name" name="Instrument"/>
+                    
+                            <button>Add</button>
                         </form>
 
-                        <div class = "TEST">
-                            <p>TEST list:</p>
-                            <ul>
-                                <li v-for="item in InstumentsList">{{ item.name }}</li>
-                            </ul>
-                        </div>
-                    </div>
+                        <form id="Stations">
+
+                            <h2>Stations</h2>
+                            <ol id="zone2"></ol>
+                            
+                            <input type="text" id="Station" placeholder="Station Name" name="Station"/>
                     
+                            <button>Add</button>
+                        </form>
+
+                        <form id="Crew">
+                            <h2>Crew Members</h2>
+                            <ol id="zone3"></ol>
+                        
+                            <input type="text" id="name" placeholder="Crew Member Name" name="name" />
+                
+                            <button>Add</button>
+                        </form>
+
+                    </div>
+
                 </div>
-                <!-- Sub Flex Container End -->
+                <!-- Sub Flex Container End --> 
 
             </div>
             <!-- Flex Container End -->
@@ -114,8 +129,21 @@
         </section>
         <!-- dropdown Section End -->
 
+
+
+
+
+
+        <!-- dropdown Section -->
+        <section id="done">
+
+          
+        <a href="createChoose.html"><button type="submit" id="dbutt">DONE!</button></a>
+
         </section>
-        <!-- Section End -->
+        <!-- dropdown Section End -->
+
+        
         
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="..\javascript\cruiseCreationList.js"></script>
