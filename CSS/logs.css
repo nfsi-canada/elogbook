@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+/*
+	E-Log cruise List Style Sheet
+    Author: Forde Nedimović
+    Creation Date: 2024/01/22 
+    Modified Date: yyyy/mm/dd
+*/
+button
+{
+    width: 40%;
+    height: 10%;
+    border-radius: 10px;
+    border: white solid 2px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkblue;
+}
+/* ===============================
+   Mobile Styles: 0px to 768px 
+   ===============================
+*/
+@media only screen and (max-width: 600px) and (min-width: 0px)
+{
+     #logList
+     {
+         width: 100%;
+         height: 100%;
+     }
+     .logListFlex-container
+     {
+         display: flex;
+         flex-wrap: wrap;
+         width: 100%;
+         height: 100%;
+     }
+     .logListText-container
+     {
+         width: 100%;
+         height: 100%;
+         background-color: #f5f5f5;
+         font-size: 1.75rem;
+         text-align: center;
+     }
+     .logListText-container button
+     {
+         margin-top: 15%;
+     }
+    li
+    {
+    margin: 1.5% 8.7%;
+    }
+    #logList > li{
+        font-size: large;
+    }
+}
+/* ===============================
+   Tablet Styles: 769px to 1000px 
+   ===============================
+*/
+@media only screen and (max-width: 800px) and (min-width: 600px)
+{
+    h1
+    {
+        font-size: larger;
+    }
+    h2
+    {
+        font-size: larger;
+    }
+    #logList
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .logListFlex-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .logListText-container
+    {
+        width: 100%;
+        height: 100%;
+        background-color: #f5f5f5;
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    .logListText-container button
+    {
+        margin-top: 15%;
+    }
+    li
+    {
+    margin: 1.5% 10.6%;
+    }
+}
+/* =================================================
+   Desktop Styles: greater than 1000px
+   =================================================
+*/
+@media only screen and (max-width: 1500px) and (min-width: 800px) 
+{
+    /* donation section */
+    #logList
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .logListFlex-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .logListText-container
+    {
+        width: 100%;
+        height: 100%;
+        background-color: #f5f5f5;
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    .logListText-container button
+    {
+        margin-top: 15%;
+    }
+    #logs{
+        height: 100%;
+    }
+    #logs > li{
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    button{
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+    }
+}
