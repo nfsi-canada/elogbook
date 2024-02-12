@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 /*
-	E-Log logs Style Sheet
+	E-Log cruise createion Style Sheet
     Author: Forde Nedimović
     Creation Date: 2024/01/22 
-    Modified Date: 2024/02/07
+    Modified Date: yyyy/mm/dd
 */
 button
 {
@@ -17,16 +17,16 @@ button
     font-weight: bold;
     transition-duration: 0.4s;
     cursor: pointer;
-}
-#lButton{
-    background-color: darkmagenta;
-
-}
-h1{
-    color: darkmagenta;
+    position: relative;
 }
 button:hover {
     background-color: darkblue;
+}
+body{
+    background-color: #f5f5f5;
+}
+html{
+    background-color: #f5f5f5;
 }
 /* ===============================
    Mobile Styles: 0px to 768px 
@@ -34,19 +34,20 @@ button:hover {
 */
 @media only screen and (max-width: 600px) and (min-width: 0px)
 {
-    #logList
+    #formfill
     {
         width: 100%;
         height: 100%;
+        float: left;
     }
-    .logListFlex-container
+    .formfillFlex-container
     {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
     }
-    .logListText-container
+    .formfillText-container
     {
         width: 100%;
         height: 100%;
@@ -54,35 +55,22 @@ button:hover {
         font-size: 1.75rem;
         text-align: center;
     }
+    .formfillText-container button
+    {
+        margin-top: 15%;
+    }
     li
     {
     margin: 1.5% 8.7%;
     }
-    #logList > li{
-        font-size: large;
-    }
-    #logs{
-        height: 100%;
-    }
-    #logs > li{
+    #done{
+        left: 0px;
+        height: 800px;
         width: 100%;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-        color: blue;
     }
-    button{
-        width: 100px;
-        height: 50px;
-        margin: 20px;
-    }
-    #logs > ul {
+    #dbutt{
         width: 100%;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-        display: inline;
-        font-size: small;
+        margin-top: 20PX;
     }
 }
 /* ===============================
@@ -99,19 +87,20 @@ button:hover {
     {
         font-size: larger;
     }
-    #logList
+    #formfill
     {
         width: 100%;
         height: 100%;
+        float: left;
     }
-    .logListFlex-container
+    .formfillFlex-container
     {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
     }
-    .logListText-container
+    .formfillText-container
     {
         width: 100%;
         height: 100%;
@@ -119,32 +108,22 @@ button:hover {
         font-size: 1.75rem;
         text-align: center;
     }
+    .formfillText-container button
+    {
+        margin-top: 15%;
+    }
     li
     {
     margin: 1.5% 10.6%;
     }
-    #logs{
-        height: 100%;
-    }
-    #logs > li{
+    #done{
+        left: 0px;
+        height: 800px;
         width: 100%;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-        color: blue;
     }
-    button{
-        width: 100px;
-        height: 50px;
-        margin: 20px;
-    }
-    #logs > ul {
+    #dbutt{
         width: 100%;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-        display: inline;
-        font-size: small;
+        margin-top: 20PX;
     }
 }
 /* =================================================
@@ -153,20 +132,20 @@ button:hover {
 */
 @media only screen and (max-width: 1500px) and (min-width: 800px) 
 {
-    /* donation section */
-    #logList
+    #formfill
     {
         width: 100%;
         height: 100%;
+        float: left;
     }
-    .logListFlex-container
+    .formfillFlex-container
     {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
     }
-    .logListText-container
+    .formfillText-container
     {
         width: 100%;
         height: 100%;
@@ -174,27 +153,34 @@ button:hover {
         font-size: 1.75rem;
         text-align: center;
     }
-    #logs{
-        height: 100%;
+    .formfillText-container button
+    {
+        margin-top: 15%;
     }
-    #logs > li{
+    form {
         width: 100%;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
+        margin: 20px;
+      }
+    ol{
         color: blue;
     }
-    button{
-        width: 100px;
-        height: 50px;
-        margin: 20px;
+    ol > li{
+        width: 60%;
     }
-    #logs > ul {
+    #done{
+        left: 0px;
+        height: 800px;
         width: 100%;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-        display: inline;
-        font-size: small;
+    }
+    #dbutt{
+        width: 100%;
+        margin-top: 20PX;
+    }
+    #disc{
+        width: 80%;
+        height: 300px;
+        overflow-wrap: break-word;
+        word-break: break-all;
+        
     }
 }

@@ -20,7 +20,7 @@ let fakeDataBase = [
     "this is some crazy da da right here",
     "there once was a ship that put to sea, the name of the ship was a..",
     "billy o tea, some say the wellerman comes to...",
-    "bring us sugar tea and rum"]                     
+    "bring us sugar tea and rum, this of course being a referance to a well known sea shanty that I do enjoy, i mean even with my bad spelling I hope to properly convay that idea, this is ment to be a long text in a  log entry..."]                     
 ]
 
 let list = document.getElementById("logs");
@@ -31,7 +31,20 @@ for (i = 0; i < fakeDataBase.length; i++) {             // i = 1 beacuse we dont
     lTitle.innerText = fakeDataBase[1][i];
     list.appendChild(lTitle);
 
-    for (j = 1; j < fakeDataBase.length; j++) {
+    let br = document.createElement('br');
+    lTitle.appendChild(br);
+
+
+    
+    let link = document.createElement('a');
+    link.setAttribute('href',"TBD.html");
+    let button = document.createElement('button');
+    button.innerText = "View Full Log"; 
+    link.appendChild(button);
+    lTitle.appendChild(link);
+
+
+    for (j = 2; j < fakeDataBase.length; j++) {         // i = 2 beacuse we skip id and log number and display info
 
         let ul = document.createElement('ul');
     
