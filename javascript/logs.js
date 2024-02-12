@@ -37,7 +37,7 @@ for (i = 0; i < fakeDataBase.length; i++) {             // i = 1 beacuse we dont
 
     
     let link = document.createElement('a');
-    link.setAttribute('href',"TBD.html");
+    link.setAttribute('href',"log.html");
     let button = document.createElement('button');
     button.innerText = "View Full Log"; 
     link.appendChild(button);
