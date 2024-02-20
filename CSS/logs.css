@@ -4,10 +4,9 @@
 	E-Log logs Style Sheet
     Author: Forde Nedimović
     Creation Date: 2024/01/22 
-    Modified Date: 2024/02/07
+    Modified Date: 2024/02/20
 */
-button
-{
+button{
     width: 40%;
     height: 10%;
     border-radius: 10px;
@@ -34,28 +33,31 @@ button:hover {
 */
 @media only screen and (max-width: 600px) and (min-width: 0px)
 {
-    #logList
-    {
+    
+    h1{
+        font-size: small;
+    }
+    h2{
+        font-size: small;
+    }
+    #logList{
         width: 100%;
         height: 100%;
     }
-    .logListFlex-container
-    {
+    .logListFlex-container{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
     }
-    .logListText-container
-    {
+    .logListText-container{
         width: 100%;
         height: 100%;
         background-color: #f5f5f5;
         font-size: 1.75rem;
         text-align: center;
     }
-    li
-    {
+    li{
     margin: 1.5% 8.7%;
     }
     #logList > li{
@@ -64,25 +66,20 @@ button:hover {
     #logs{
         height: 100%;
     }
-    #logs > li{
-        width: 100%;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-        color: blue;
-    }
     button{
         width: 100px;
-        height: 50px;
-        margin: 20px;
-    }
-    #logs > ul {
-        width: 100%;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-        display: inline;
+        height: 40px;
+        margin: 1px;
         font-size: small;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
+    }
+    table, th, td {
+        border: 1px solid;
+        font-size: xx-small;
     }
 }
 /* ===============================
@@ -91,60 +88,49 @@ button:hover {
 */
 @media only screen and (max-width: 800px) and (min-width: 600px)
 {
-    h1
-    {
-        font-size: larger;
+    h1{
+        font-size: medium;
     }
-    h2
-    {
-        font-size: larger;
+    h2{
+        font-size: medium;
     }
-    #logList
-    {
+    #logList{
         width: 100%;
         height: 100%;
     }
-    .logListFlex-container
-    {
+    .logListFlex-container{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
     }
-    .logListText-container
-    {
+    .logListText-container{
         width: 100%;
         height: 100%;
         background-color: #f5f5f5;
         font-size: 1.75rem;
         text-align: center;
     }
-    li
-    {
+    li{
     margin: 1.5% 10.6%;
     }
     #logs{
         height: 100%;
     }
-    #logs > li{
-        width: 100%;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-        color: blue;
-    }
     button{
         width: 100px;
-        height: 50px;
-        margin: 20px;
-    }
-    #logs > ul {
-        width: 100%;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-        display: inline;
+        height: 40px;
+        margin: 1px;
         font-size: small;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
+    }
+    table, th, td {
+        border: 1px solid;
+        font-size: x-small;
     }
 }
 /* =================================================
@@ -153,21 +139,24 @@ button:hover {
 */
 @media only screen and (max-width: 1500px) and (min-width: 800px) 
 {
-    /* donation section */
-    #logList
-    {
+    
+    h1 {
+        font-size: larger;
+    }
+    h2{
+        font-size: larger;
+    }
+    #logList{
         width: 100%;
         height: 100%;
     }
-    .logListFlex-container
-    {
+    .logListFlex-container{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
     }
-    .logListText-container
-    {
+    .logListText-container{
         width: 100%;
         height: 100%;
         background-color: #f5f5f5;
@@ -177,24 +166,39 @@ button:hover {
     #logs{
         height: 100%;
     }
-    #logs > li{
-        width: 100%;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-        color: blue;
-    }
     button{
-        width: 100px;
-        height: 50px;
-        margin: 20px;
-    }
-    #logs > ul {
-        width: 100%;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-        display: inline;
+        width: 60px;
+        height: 20px;
+        margin: 1px;
         font-size: small;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
+        text-align: left;
+    }
+    table, th, td {
+        border: 1px solid;
+        font-size: small;
+    }
+    th:first-child{
+        width: 5.5%;
+    }
+    th:nth-child(2){
+        width: 3%;
+    }
+    th:nth-child(3){
+        width: 14%;
+        text-align: left;
+    }
+    th:nth-child(5){
+        width: 5%;
+    }
+    th:nth-child(6){
+        width: 5%;
+    }
+    th:nth-child(7){
+        width: 5%;
     }
 }
