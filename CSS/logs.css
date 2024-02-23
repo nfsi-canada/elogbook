@@ -201,4 +201,10 @@ button:hover {
     th:nth-child(7){
         width: 5%;
     }
+    #lButton{
+        width: 80px;
+        height: 40px;
+        margin: 1px;
+        font-size: small;
+    }
 }

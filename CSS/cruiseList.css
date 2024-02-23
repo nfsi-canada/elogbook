@@ -21,6 +21,9 @@ button
 button:hover {
     background-color: darkblue;
 }
+h1{
+    color: darkmagenta;
+}
 /* ===============================
    Mobile Styles: 0px to 768px 
    ===============================
@@ -108,7 +111,12 @@ button:hover {
 */
 @media only screen and (max-width: 1500px) and (min-width: 800px) 
 {
-    /* donation section */
+    h1 {
+        font-size: larger;
+    }
+    h2{
+        font-size: larger;
+    }
     #cList
     {
         width: 100%;
@@ -129,10 +137,6 @@ button:hover {
         font-size: 1.75rem;
         text-align: center;
     }
-    .cListText-container button
-    {
-        margin-top: 15%;
-    }
     #clItems{
         height: 100%;
     }
@@ -144,7 +148,15 @@ button:hover {
     }
     button{
         width: 100px;
-        height: 100px;
-        margin: 20px;
+        height: 40px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
+    }
+    table, th, td {
+        border: 1px solid;
+        font-size: small;
     }
 }
