@@ -1,0 +1,108 @@
+<!--
+    e-log book log creation page
+
+    Author: Forde Nedimović
+    Creation Date: 2024/02/06 
+    Modified Date: 2024/02/08
+
+    Filename:   logCreation.php
+-->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+		<meta name="description" content="The log creation page for the e-log book">
+		<meta name="keywords" content="log, logs, creation">
+		<meta name="author" content="Forde Nedimović">
+		<title>E-Log Curise Log Creation</title>
+        <link href="..\CSS\base.css" rel="stylesheet">
+        <link href="..\CSS\logCreation.css" rel="stylesheet">
+    </head>
+
+    <body>
+         <!-- Header Section -->
+         <header>
+            <!-- nav Section -->
+            <section class="nav">
+                <ul class="menu">
+                  <li><a href="index.php">Login Out</a></li>
+                  <li><a href="createChoose.php">Home</a></li>
+                  <li><a href="cruiseList.php">Cruises</a></li>
+                </ul>
+            </section>
+            <!-- sav Section end -->
+        </header>
+        <!-- Header Section End -->
+            
+            <!-- dropdown Section -->
+            <section id="formfill">
+    
+                <div class="formfillFlex-container">
+                    
+                    <div class="formfillText-container">
+                        
+                        <h1>LOG X</h1>
+
+                        <br>
+                        <label for="author"><b>Author</b></label><br>
+                        <input type="text" placeholder="Enter Author Name" name="author" required>
+    
+                        <br><br><br>
+    
+                        <label for="date"><b>Date</b></label><br>
+                        <input id="date" type="text" name="date" required>
+    
+                        <br><br><br>
+    
+                        <label for="time"><b>Time</b></label><br>
+                        <input id="time" type="text" name="time" required>
+                        <br><br>
+    
+                        <div id="forms">
+    
+                            <form id="Instruments">
+                                
+                                <h2>Instruments Involved</h2>
+                                <ol id="zone"></ol>
+    
+                                <input list="Instrument" name="Instrument">
+                                <datalist id="Instrument">
+                                    <option value="TBD">
+                                    <option value="TBD">
+                                    <option value="TBD">
+                                    <option value="TBD">
+                                    <option value="TBD">
+                                </datalist>
+                        
+                                <button>Add</button>
+                            </form>
+
+                            <h2>Description</h2>
+                            <input id="disc" type="text" required></inputid>
+    
+                        </div>
+    
+                    </div>
+                    <!-- Sub Flex Container End --> 
+    
+                </div>
+                <!-- Flex Container End -->
+    
+            </section>
+            <!-- dropdown Section End -->
+    
+            <!-- done button Section -->
+            <section id="done">
+    
+              
+            <a href="logs.php"><button type="submit" id="dbutt">CREATE LOG!</button></a>
+    
+            </section>
+            <!-- done button Section End -->
+    
+        <script src="..\javascript\logCreation.js"></script>
+
+    </body>
+</html>
