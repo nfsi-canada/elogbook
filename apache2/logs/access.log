@@ -1,4 +1,0 @@
-::1 - - [01/Mar/2024:13:55:53 -0400] "GET / HTTP/1.1" 200 1964
-::1 - - [01/Mar/2024:13:55:56 -0400] "GET /createChoose.php HTTP/1.1" 200 2404
-::1 - - [01/Mar/2024:13:56:05 -0400] "GET /phpmyadmin/ HTTP/1.1" 200 4867
-::1 - - [01/Mar/2024:13:56:08 -0400] "GET /phpmyadmin/themes/pmahomme/img/s_error.png HTTP/1.1" 200 614

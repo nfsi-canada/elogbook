@@ -39,20 +39,21 @@
             <div class="loginFlex-container">
                 
                 <div class="loginText-container">
+                    <form action="..\PHP\login.php" method="get" >
+                        <br><br><br>
 
-                    <br><br><br>
+                        <label for="username"><b>Username</b></label>
+                        <input id="username" type="text" placeholder="Enter Username" name="username" required>
 
-                    <label for="username"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" name="username" required>
+                        <br><br><br>
 
-                    <br><br><br>
+                        <label for="password"><b>Password</b></label>
+                        <input id="password" type="password" placeholder="Enter Password" name="password" required>
 
-                    <label for="pass"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="pass" required>
-
-                    <br>
-                    
-                    <a href="createChoose.php"><button type="submit">Login</button></a>
+                        <br>
+                        
+                        <a href="createChoose.php"><button type="submit">Login</button></a>
+                    </form>
                 </div>
                 <!-- Sub Flex Container End -->
 
@@ -61,39 +62,6 @@
 
         </section>
         <!-- Login Section End -->
-
-        <!-- PHP Section -->
-        <?php
-
-            $host = "localhost";
-            $username= "root";
-            $user_pass = "usbw";
-            $data_base_in_use = "sakila";
-            
-            $mysqli = new mysqli($host, $username, $user_pass, $data_base_in_use);
-
-            if ($mysqli -> connect_errno) {
-                echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
-                exit();
-            }
-
-            echo $mysqli->host_info . "\n";
-
-            $sql = "SELECT username, pasword FROM user";
-            $result = $mysqli->query($sql);
-
-            if ($result->num_rows > 0) {
-            // output data of each row
-            while($row = $result->fetch_assoc()) {
-                echo "username: " . $row["username"]. " - Password: " . $row["pasword"]. "<br>";
-            }
-            } else {
-            echo "0 results";
-            }
-            $mysqli->close();
-
-        ?>
-        <!-- PHO Section End -->
 
     </body>
 </html>
