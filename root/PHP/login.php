@@ -12,13 +12,6 @@ if ($mysqli -> connect_errno) {
     exit();
 }
 
-echo $mysqli->host_info . "\n";
-
-
-
-
-
-
 $username = $_GET["username"];
 $password = $_GET["password"];
 

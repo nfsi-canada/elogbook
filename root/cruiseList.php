@@ -62,6 +62,50 @@
 
                         </tr>
 
+                        <?php
+
+                            $host = "localhost";
+                            $username= "root";
+                            $user_pass = "usbw";
+                            $data_base_in_use = "sakila";
+
+                            $mysqli = new mysqli($host, $username, $user_pass, $data_base_in_use);
+
+                            if ($mysqli -> connect_errno) {
+                                echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+                                exit();
+                            }
+
+                            $sql = "SELECT c_name, c_id, location, s_date, e_date  FROM cruise ORDER BY e_date DESC LIMIT 0, 10";
+                            $result = $mysqli->query($sql);
+
+                            if ($result->num_rows > 0) {
+                                while($row = $result->fetch_assoc()) {
+
+                                    $c_name = $row["c_name"];
+                                    $c_id = $row["c_id"];
+                                    $location = $row["location"];
+                                    $s_date = $row["s_date"];
+                                    $e_date = $row["e_date"];
+
+                                    echo "<tr>";
+                                    echo "<td>$c_name</td>";
+                                    echo "<td>$c_id</td>";
+                                    echo "<td>$location</td>";
+                                    echo "<td>$s_date</td>";
+                                    echo "<td>$e_date</td>";
+
+                                    echo "<th> <a href='logs.php'> <button>View Logs</button> </a>  </th>";
+                                    echo "<th> <a href='TBD.php'> <button>Edit Cruise</button> </a>  </th>";
+                                    echo "<th> <a href='TBD.php'> <button>Export Data</button> </a>  </th>";
+
+                                    echo "</tr>";
+                                }
+                            } 
+
+                            $mysqli->close();
+                            ?>
+
                     </table>
 
                 </div>
