@@ -106,7 +106,6 @@ button:hover {
 */
 @media only screen and (max-width: 1500px) and (min-width: 800px) 
 {
-    /* donation section */
     #log
     {
         width: 100%;
@@ -131,5 +130,15 @@ button:hover {
         width: 100px;
         height: 50px;
         margin: 20px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 50%;
+        table-layout: fixed;
+        margin-left: 25%;
+    }
+    table, th, td {
+        border: 3px solid;
+        font-size: xx-large;
     }
 }

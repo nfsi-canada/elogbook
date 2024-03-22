@@ -43,7 +43,15 @@
                 
                 <div class="logListText-container">
 
-                    <h1>CRUISE X LOGS</h1>
+
+                    <?php   
+                         
+                        $cName = $_GET["CNAME"];  
+                        echo "<h1>  $cName LOGS</h1>";
+
+                        
+
+                    ?>
                     <h1><button id="lButton"><a href="logCreation.php">Make New Log</a></button></h1>
                    
                     <table id="logs">
@@ -74,14 +82,16 @@
                                 exit();
                             }
 
-                            $cruiseID = 0; 
+                            $cruiseID = $_GET["CID"];  
 
-                            $sql = "SELECT date, time, type, text, Crew_crew_name1  FROM logs WHERE Cruise_c_id = $cruiseID ORDER BY date DESC LIMIT 0, 10";
+                            $sql = "SELECT log_id, date, time, type, text, Crew_crew_name1  FROM logs WHERE Cruise_c_id = $cruiseID ORDER BY date DESC LIMIT 0, 10";
                             $result = $mysqli->query($sql);
 
                             if ($result->num_rows > 0) {
                                 while($row = $result->fetch_assoc()) {
 
+                                    
+                                    $logID = $row["log_id"];
                                     $date = $row["date"];
                                     $time = $row["time"];
                                     $type = $row["type"];
@@ -95,8 +105,18 @@
                                     echo "<td>$text</td>";
                                     echo "<td>$Crew_crew_name1</td>";
 
-                                    echo "<th> <a href='logs.php'> <button>View Logs</button> </a>  </th>";
-                                    echo "<th> <a href='TBD.php'> <button>Edit Cruise</button> </a>  </th>";
+                                    echo "<th> 
+                            
+                                            <form action='log.php' method='get' >
+
+                                                <input id='$logID' type='hidden' name='logID' value='$logID' />
+
+                                                <a href='log.php'><button type='submit'>View</button></a>
+                                                
+                                            </form>
+
+                                          </th>";
+                                    echo "<th> <a href='TBD.php'> <button>Edit</button> </a>  </th>";
 
                                     echo "</tr>";
                                 }

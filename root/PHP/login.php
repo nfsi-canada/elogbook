@@ -22,7 +22,14 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
 
         if (($row["username"] == $username) && ($row["pasword"] == $password)) {
+
+            session_start();
+
+            $_SESSION["userID"] = $username;
+            
             header("Location: ..\createChoose.php");
+    
+
             exit();
         }
     }

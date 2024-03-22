@@ -63,7 +63,6 @@
                         </tr>
 
                         <?php
-
                             $host = "localhost";
                             $username= "root";
                             $user_pass = "usbw";
@@ -95,7 +94,18 @@
                                     echo "<td>$s_date</td>";
                                     echo "<td>$e_date</td>";
 
-                                    echo "<th> <a href='logs.php'> <button>View Logs</button> </a>  </th>";
+                                    echo "<th> 
+
+                                            <form action='logs.php' method='get' >
+
+                                                <input id='$c_id' type='hidden' name='CID' value='$c_id' />
+                                                <input id='$c_name' type='hidden' name='CNAME' value='$$c_name' />
+
+                                                <a href='logs.php'><button type='submit'>View Logs</button></a>
+                                                
+                                            </form>
+
+                                          </th>";
                                     echo "<th> <a href='TBD.php'> <button>Edit Cruise</button> </a>  </th>";
                                     echo "<th> <a href='TBD.php'> <button>Export Data</button> </a>  </th>";
 
@@ -118,6 +128,6 @@
             <!-- cList Section End -->
 
     <script src="..\javascript\cruiseList.js"></script>
-
+    
     </body>
 </html>
