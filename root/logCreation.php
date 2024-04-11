@@ -43,11 +43,30 @@
                     
                     <div class="formfillText-container">
                         
+                    <?php
+
+                        $c_id = $_GET["CID"];  
+
+                        echo "<h1>  $c_id  = C ID</h1>";
+
+                    ?>
+
                         <h1>LOG X</h1>
 
+                        <form action='PHP\logMaker.php' method='get' >
+
                         <br>
-                        <label for="author"><b>Author</b></label><br>
-                        <input type="text" placeholder="Enter Author Name" name="author" required>
+                        
+                        <?php
+                        session_start();
+                        $currentUser = $_SESSION["userID"];
+                        echo "
+                        
+                            <label for='author'><b>Author</b></label><br>
+                            <input type='text' value='$currentUser' name='author' required>
+                        
+                            "
+                        ?>
     
                         <br><br><br>
     
@@ -59,30 +78,24 @@
                         <label for="time"><b>Time</b></label><br>
                         <input id="time" type="text" name="time" required>
                         <br><br>
-    
-                        <div id="forms">
-    
-                            <form id="Instruments">
-                                
-                                <h2>Instruments Involved</h2>
-                                <ol id="zone"></ol>
-    
-                                <input list="Instrument" name="Instrument">
-                                <datalist id="Instrument">
-                                    <option value="TBD">
-                                    <option value="TBD">
-                                    <option value="TBD">
-                                    <option value="TBD">
-                                    <option value="TBD">
-                                </datalist>
-                        
-                                <button>Add</button>
-                            </form>
 
-                            <h2>Description</h2>
-                            <input id="disc" type="text" required></inputid>
-    
-                        </div>
+                        <h2>Instruments Involved</h2>
+
+                        <br><br><br><br>
+
+                        <h2>Description</h2>
+                        
+                        <input id="disc" name="disc" type="text" required></inputid>
+
+                         <!-- done button Section -->
+                            <section id="done">
+                     
+                                <a href="PHP\logMaker.php"><button type="submit" id="dbutt">CREATE LOG!</button></a>
+
+                             </section>
+                        <!-- done button Section End -->
+
+                        </form>
     
                     </div>
                     <!-- Sub Flex Container End --> 
@@ -92,17 +105,8 @@
     
             </section>
             <!-- dropdown Section End -->
-    
-            <!-- done button Section -->
-            <section id="done">
-    
-              
-            <a href="logs.php"><button type="submit" id="dbutt">CREATE LOG!</button></a>
-    
-            </section>
-            <!-- done button Section End -->
-    
-        <script src="..\javascript\logCreation.js"></script>
+        
+        <script src="..\javascript\logMaker.js"></script>
 
     </body>
 </html>

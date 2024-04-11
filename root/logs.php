@@ -18,7 +18,7 @@
 		<meta name="author" content="Forde Nedimović">
 		<title>E-Log Curise Logs</title>
         <link href="..\CSS\base.css" rel="stylesheet">
-        <link href="..\CSS\logs.css" rel="stylesheet">
+        <link href="..\CSS\logList.css" rel="stylesheet">
     </head>
 
     <body>
@@ -46,14 +46,24 @@
 
                     <?php   
                          
-                        $cName = $_GET["CNAME"];  
+                        $c_id = $_GET["CID"]; 
+                        $cName = $_GET["CNAME"];   
+                        
                         echo "<h1>  $cName LOGS</h1>";
 
-                        
+                    
+                    echo "
+                    <form action='logCreation.php' method='get' >
+
+                        <input id='$c_id' type='hidden' name='CID' value='$c_id' />
+
+                        <a href='logCreation.php'><button id='lButton' type='submit'> Make New Log</button></a>
+
+                    </form>
+                    ";
 
                     ?>
-                    <h1><button id="lButton"><a href="logCreation.php">Make New Log</a></button></h1>
-                   
+
                     <table id="logs">
                         
                         <tr>
