@@ -58,12 +58,16 @@
                         <br>
                         
                         <?php
+                        $c_id = $_GET["CID"]; 
                         session_start();
                         $currentUser = $_SESSION["userID"];
                         echo "
                         
                             <label for='author'><b>Author</b></label><br>
                             <input type='text' value='$currentUser' name='author' required>
+
+                            <input id='$c_id' type='hidden' name='CID' value='$c_id' />
+
                         
                             "
                         ?>
@@ -77,9 +81,47 @@
     
                         <label for="time"><b>Time</b></label><br>
                         <input id="time" type="text" name="time" required>
+                        <br><br><br>
+
+                        <label for="type"><b>Type</b></label><br>
+                        <input id="type" type="text" name="type" required>
                         <br><br>
 
                         <h2>Instruments Involved</h2>
+
+                        <?php
+
+                            $host = "localhost";
+                            $username= "root";
+                            $user_pass = "usbw";
+                            $data_base_in_use = "sakila";
+
+                            $mysqli = new mysqli($host, $username, $user_pass, $data_base_in_use);
+
+                            if ($mysqli -> connect_errno) {
+                                echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+                                exit();
+                            }
+
+                            $cruiseID = $_GET["CID"];  
+
+                            $sql = "SELECT Instruments_ins_name FROM cruise_has_instruments WHERE Cruise_c_id = $cruiseID";
+                            $result = $mysqli->query($sql);
+
+                            if ($result->num_rows > 0) {
+                                while($row = $result->fetch_assoc()) {
+
+                                    
+                                    $instrument = $row["Instruments_ins_name"];
+
+                                    echo "<input type='checkbox' class='form' value='$instrument' name='checkbox[]' /> $instrument <br />";
+        
+                                }
+                            } 
+
+                            $mysqli->close();
+                            ?>
+
 
                         <br><br><br><br>
 

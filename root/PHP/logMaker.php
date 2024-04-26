@@ -12,18 +12,44 @@ if ($mysqli -> connect_errno) {
     exit();
 }
 
-echo "<p>TESTING</p>";
-
-$author = $_GET["author"];  
+$author = $_GET["author"];   
 $date = $_GET["date"];  
 $time = $_GET["time"];  
 $disc = $_GET["disc"];  
+$c_id = $_GET["CID"];  
+$type = $_GET["type"];  
 
-echo $author . "<br>";
-echo $date  . "<br>";
-echo $time  . "<br>";
-echo $disc  . "<br>";
+$sql = "SET FOREIGN_KEY_CHECKS=0;";
 
+if ($mysqli->query($sql) === TRUE) {
+    echo "key check = 0 <br>";
+  } else {
+    echo "Error: " . $sql . "<br>" . $mysqli->error;
+  }
+
+$sql = "INSERT INTO logs (date, time, type, text, Cruise_c_id, Crew_crew_name1, Crew_Cruise_c_id1)
+VALUES (?, ?, ?, ?, ?, ?, ?)";
+
+$stmt= $mysqli->prepare($sql);
+
+$stmt->bind_param("ssssisi", $date, $time, $type, $disc, $c_id, $author, $c_id);
+
+$stmt->execute();
+
+$sql = "SELECT * FROM `logs` ORDER BY `log_id` DESC LIMIT 1";
+$result = $mysqli->query($sql);
+$row = mysqli_fetch_array($result);
+$newID = $row['log_id'];
+echo $newID . ' <br>';
+
+foreach($_GET['checkbox'] as $checkbox){
+    $sql = "INSERT INTO logs_has_instruments (logs_log_id, Instruments_ins_name) VALUES (?, ?)";
+    $stmt= $mysqli->prepare($sql);
+    $stmt->bind_param("is", $newID, $checkbox);
+    $stmt->execute();
+    echo $checkbox . ' <br>';
+    echo $newID . ' <br>';
+}
 
 $mysqli->close();
 
