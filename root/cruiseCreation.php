@@ -54,7 +54,7 @@
                     <input type="text" placeholder="Enter Ship Name" name="sName" required>
                     <br>
 
-                    <label for="cID"><b>Cruise ID</b></label><br>
+                    <label for="cID"><b>Cruise Name</b></label><br>
                     <input type="text" placeholder="Enter Cruise ID" name="cID" required>
                     <br>
 
@@ -76,6 +76,7 @@
 
                     <label for="end"><b>Cruise End Date</b></label><br>
                     <input type="text" placeholder="Enter Cruise end date" name="end" required>
+                    <br>
 
                     <!-- dropdown Section -->
                     <section id="formfill">
@@ -86,34 +87,34 @@
 
                                 <div id="forms">
 
-                                    <form id="Instruments">
+                                    <div id="Instruments">
                                         
                                         <h2>Instruments</h2>
                                         <ol id="zone"></ol>
 
                                         <input type="text" id="Instrument" placeholder="Instrument Name" name="Instrument"/>
                                 
-                                        <button type="text">Add</button>
-                                    </form>
+                                        <input id="clickMe" type="button" value="clickme" onclick="listOne();" />
+                                    </div>
 
-                                    <form id="Stations">
+                                    <div id="Stations">
 
                                         <h2>Stations</h2>
                                         <ol id="zone2"></ol>
                                         
                                         <input type="text" id="Station" placeholder="Station Name" name="Station"/>
                                 
-                                        <button>Add</button>
-                                    </form>
+                                        <input id="clickMe2" type="button" value="clickme2" onclick="listTwo();" />
+                                    </div>
 
-                                    <form id="Crew">
+                                    <div id="Crew">
                                         <h2>Crew Members</h2>
                                         <ol id="zone3"></ol>
                                     
                                         <input type="text" id="name" placeholder="Crew Member Name" name="name" />
                             
-                                        <button>Add</button>
-                                    </form>
+                                        <input id="clickMe3" type="button" value="clickme3" onclick="listThree();" />
+                                    </div>
 
                                 </div>
 
@@ -145,7 +146,72 @@
 
     </form>
 
-        <script src="..\javascript\cruiseCreation.js"></script>
+        <script>
+
+        function listOne() { 
+            var list = document.getElementById('zone');
+            var item = document.getElementById('Instruments');
+            var Instrument = document.getElementById('Instrument').value;
+
+            var newCheckBox = document.createElement('input'); 
+            newCheckBox.setAttribute('type','checkbox')
+            newCheckBox.setAttribute('checked','true')
+            newCheckBox.setAttribute('value', Instrument)
+            newCheckBox.setAttribute('class', 'form')
+            newCheckBox.setAttribute('style', 'display:none')
+            newCheckBox.setAttribute('name','checkbox[]')
+
+            list.appendChild(newCheckBox); 
+
+            var Instrument = document.getElementById('Instrument').value;
+            var item = document.createElement('li');
+            item.appendChild(document.createTextNode(Instrument));
+            list.appendChild(item);
+        };
+        function listTwo() { 
+            var list2 = document.getElementById('zone2');
+            var item2 = document.getElementById('Stations');
+            var Station = document.getElementById('Station').value;
+
+            var newCheckBoxTwo = document.createElement('input'); 
+            newCheckBoxTwo.setAttribute('type','checkbox')
+            newCheckBoxTwo.setAttribute('checked','true')
+            newCheckBoxTwo.setAttribute('value', Station)
+            newCheckBoxTwo.setAttribute('class', 'form')
+            newCheckBoxTwo.setAttribute('style', 'display:none')
+            newCheckBoxTwo.setAttribute('name','checkboxTwo[]')
+
+            list2.appendChild(newCheckBoxTwo); 
+
+            var item2 = document.createElement('li');
+            item2.appendChild(document.createTextNode(Station));
+            list2.appendChild(item2);
+        };
+        function listThree() { 
+            var list3 = document.getElementById('zone3');
+            var item3 = document.getElementById('Crew');
+            var name = document.getElementById('name').value;
+
+            var newCheckBoxThree = document.createElement('input'); 
+            newCheckBoxThree.setAttribute('type','checkbox')
+            newCheckBoxThree.setAttribute('checked','true')
+            newCheckBoxThree.setAttribute('value', name)
+            newCheckBoxThree.setAttribute('class', 'form')
+            newCheckBoxThree.setAttribute('style', 'display:none')
+            newCheckBoxThree.setAttribute('name','checkboxThree[]')
+
+            list3.appendChild(newCheckBoxThree); 
+
+            var item3 = document.createElement('li');
+            item3.appendChild(document.createTextNode(name));
+            list3.appendChild(item3);
+        };
+
+        </script>
 
     </body>
 </html>
+
+
+
+

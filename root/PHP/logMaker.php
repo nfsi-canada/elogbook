@@ -22,7 +22,7 @@ $type = $_GET["type"];
 $sql = "SET FOREIGN_KEY_CHECKS=0;";
 
 if ($mysqli->query($sql) === TRUE) {
-    echo "key check = 0 <br>";
+
   } else {
     echo "Error: " . $sql . "<br>" . $mysqli->error;
   }
@@ -40,17 +40,24 @@ $sql = "SELECT * FROM `logs` ORDER BY `log_id` DESC LIMIT 1";
 $result = $mysqli->query($sql);
 $row = mysqli_fetch_array($result);
 $newID = $row['log_id'];
-echo $newID . ' <br>';
 
 foreach($_GET['checkbox'] as $checkbox){
     $sql = "INSERT INTO logs_has_instruments (logs_log_id, Instruments_ins_name) VALUES (?, ?)";
     $stmt= $mysqli->prepare($sql);
     $stmt->bind_param("is", $newID, $checkbox);
     $stmt->execute();
-    echo $checkbox . ' <br>';
-    echo $newID . ' <br>';
 }
 
+$sql = "SET FOREIGN_KEY_CHECKS=1;";
+
+if ($mysqli->query($sql) === TRUE) {
+    
+  } else {
+    echo "Error: " . $sql . "<br>" . $mysqli->error;
+  }
+
 $mysqli->close();
+
+header("Location: ..\cruiseList.php");
 
 ?>

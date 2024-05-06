@@ -86,7 +86,7 @@
         <?php
         // Echo session variables that were set on previous page
         session_start();
-        echo "User loged in is " . $_SESSION["userID"] . ".<br>";
+        //echo "User loged in is " . $_SESSION["userID"] . ".<br>";
         ?>
 
     </body>
