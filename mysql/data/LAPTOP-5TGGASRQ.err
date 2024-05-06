@@ -7822,3 +7822,39 @@
 2024-05-06T17:07:26.635308Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`station` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
 2024-05-06T17:07:36.640547Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
 2024-05-06T17:07:36.642328Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`crew` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-06T17:15:13.591919Z 750 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:13.598611Z 750 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:13.603731Z 750 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:13.609054Z 750 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:13.614147Z 750 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:13.619549Z 750 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:13.624439Z 750 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:13.628981Z 750 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:19.466872Z 762 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:19.521826Z 762 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:19.564984Z 762 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:19.611757Z 762 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:19.659246Z 762 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:19.706921Z 762 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:19.755181Z 762 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:19.813223Z 762 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:28.610965Z 780 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:28.612319Z 780 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-06T17:15:41.228043Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:41.229463Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`user` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-06T17:15:59.872211Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:15:59.873304Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`user` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-06T17:16:01.322876Z 824 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:16:01.324362Z 824 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`station` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-06T17:16:01.344814Z 824 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:16:01.345779Z 824 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-06T17:16:02.298705Z 828 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:16:02.300260Z 828 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-06T17:16:02.328326Z 828 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:16:02.329326Z 828 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-06T17:16:02.337210Z 828 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:16:02.338521Z 828 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-06T17:16:02.890283Z 832 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:16:02.891396Z 832 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`crew` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-06T17:16:03.962214Z 840 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-06T17:16:03.964019Z 840 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
