@@ -91,7 +91,7 @@ CREATE TABLE IF NOT EXISTS `sakila`.`logs` (
   `date` DATE NULL,
   `time` TIME NULL,
   `type` VARCHAR(45) NULL,
-  `text` VARCHAR(255) NULL,
+  `text` VARCHAR(1023) NULL,
   `Cruise_c_id` INT NOT NULL,
   `Crew_crew_name1` VARCHAR(45) NOT NULL,
   `Crew_Cruise_c_id1` INT NOT NULL,

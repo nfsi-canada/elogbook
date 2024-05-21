@@ -56,6 +56,7 @@
                     <form action='logCreation.php' method='get' >
 
                         <input id='$c_id' type='hidden' name='CID' value='$c_id' />
+                        <input id='$c_name' type='hidden' name='CNAME' value='$cName' />
 
                         <a href='logCreation.php'><button id='lButton' type='submit'> Make New Log</button></a>
 
@@ -94,7 +95,7 @@
 
                             $cruiseID = $_GET["CID"];  
 
-                            $sql = "SELECT log_id, date, time, type, text, Crew_crew_name1  FROM logs WHERE Cruise_c_id = $cruiseID ORDER BY date DESC LIMIT 0, 10";
+                            $sql = "SELECT log_id, date, time, type, text, Crew_crew_name1  FROM logs WHERE Cruise_c_id = $cruiseID ORDER BY date, time DESC";
                             $result = $mysqli->query($sql);
 
                             if ($result->num_rows > 0) {
@@ -146,7 +147,7 @@
         </section>
             <!-- log Section End -->
 
-    <script src="..\javascript\logs.js"></script>
+    <!-- <script src="..\javascript\logs.js"></script> -->
 
     </body>
 </html>

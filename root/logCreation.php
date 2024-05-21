@@ -45,9 +45,11 @@
                         
                     <?php
 
-                        $c_id = $_GET["CID"];  
+                        $c_id = $_GET["CID"]; 
+                        $c_name = $_GET["CNAME"]; 
 
                         echo "<h1>  $c_id  = C ID</h1>";
+                        echo "<h1>  $c_name  = C NAME</h1>";
 
                     ?>
 
@@ -59,6 +61,7 @@
                         
                         <?php
                         $c_id = $_GET["CID"]; 
+                        $c_name = $_GET["CNAME"]; 
                         session_start();
                         $currentUser = $_SESSION["userID"];
                         echo "
@@ -67,6 +70,7 @@
                             <input type='text' value='$currentUser' name='author' required>
 
                             <input id='$c_id' type='hidden' name='CID' value='$c_id' />
+                            <input id='$c_name' type='hidden' name='CNAME' value='$c_name' />
 
                         
                             "

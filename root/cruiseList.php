@@ -127,7 +127,7 @@
         </section>
             <!-- cList Section End -->
 
-    <script src="..\javascript\cruiseList.js"></script>
+    <!-- <script src="..\javascript\cruiseList.js"></script> -->
     
     </body>
 </html>

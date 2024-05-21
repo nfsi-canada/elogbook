@@ -94,7 +94,7 @@
 
                                         <input type="text" id="Instrument" placeholder="Instrument Name" name="Instrument"/>
                                 
-                                        <input id="clickMe" type="button" value="clickme" onclick="listOne();" />
+                                        <input id="clickMe" type="button" value="Add" onclick="listOne();" />
                                     </div>
 
                                     <div id="Stations">
@@ -104,7 +104,7 @@
                                         
                                         <input type="text" id="Station" placeholder="Station Name" name="Station"/>
                                 
-                                        <input id="clickMe2" type="button" value="clickme2" onclick="listTwo();" />
+                                        <input id="clickMe2" type="button" value="Add" onclick="listTwo();" />
                                     </div>
 
                                     <div id="Crew">
@@ -113,7 +113,7 @@
                                     
                                         <input type="text" id="name" placeholder="Crew Member Name" name="name" />
                             
-                                        <input id="clickMe3" type="button" value="clickme3" onclick="listThree();" />
+                                        <input id="clickMe3" type="button" value="Add" onclick="listThree();" />
                                     </div>
 
                                 </div>

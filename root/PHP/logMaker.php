@@ -58,6 +58,8 @@ if ($mysqli->query($sql) === TRUE) {
 
 $mysqli->close();
 
-header("Location: ..\cruiseList.php");
+$c_name = $_GET["CNAME"]; 
+
+header("Location: ..\logs.php?CID=$c_id&CNAME=%24$cname");
 
 ?>
