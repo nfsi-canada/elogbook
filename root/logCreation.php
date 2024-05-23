@@ -18,7 +18,7 @@
 		<meta name="author" content="Forde Nedimović">
 		<title>E-Log Curise Log Creation</title>
         <link href="..\CSS\base.css" rel="stylesheet">
-        <link href="..\CSS\logCreation.css" rel="stylesheet">
+        <link href="..\CSS\logcreation.css" rel="stylesheet">
     </head>
 
     <body>
@@ -42,22 +42,15 @@
                 <div class="formfillFlex-container">
                     
                     <div class="formfillText-container">
-                        
+                    <h2>General Information</h2>
                     <?php
 
                         $c_id = $_GET["CID"]; 
                         $c_name = $_GET["CNAME"]; 
 
-                        echo "<h1>  $c_id  = C ID</h1>";
-                        echo "<h1>  $c_name  = C NAME</h1>";
-
                     ?>
 
-                        <h1>LOG X</h1>
-
                         <form action='PHP\logMaker.php' method='get' >
-
-                        <br>
                         
                         <?php
                         $c_id = $_GET["CID"]; 
@@ -66,30 +59,42 @@
                         $currentUser = $_SESSION["userID"];
                         echo "
                         
-                            <label for='author'><b>Author</b></label><br>
-                            <input type='text' value='$currentUser' name='author' required>
+                        <table>
 
-                            <input id='$c_id' type='hidden' name='CID' value='$c_id' />
-                            <input id='$c_name' type='hidden' name='CNAME' value='$c_name' />
+                            <tr>
 
+                                <td>
+
+                                    <label for='author'><b>Author</b></label><br>
+                                    <input type='text' value='$currentUser' name='author' required>
+
+                                    <input id='$c_id' type='hidden' name='CID' value='$c_id' />
+                                    <input id='$c_name' type='hidden' name='CNAME' value='$c_name' />
+                                </td>
                         
                             "
                         ?>
     
-                        <br><br><br>
+                        <td>
     
                         <label for="date"><b>Date</b></label><br>
                         <input id="date" type="text" name="date" required>
     
-                        <br><br><br>
+                        </td>
+                        <td>
     
                         <label for="time"><b>Time</b></label><br>
                         <input id="time" type="text" name="time" required>
-                        <br><br><br>
+                        
+                        </td>
+                        <td>
 
                         <label for="type"><b>Type</b></label><br>
                         <input id="type" type="text" name="type" required>
-                        <br><br>
+
+                        </td>
+                        </tr>
+                        </table>
 
                         <h2>Instruments Involved</h2>
 
@@ -112,25 +117,59 @@
                             $sql = "SELECT Instruments_ins_name FROM cruise_has_instruments WHERE Cruise_c_id = $cruiseID";
                             $result = $mysqli->query($sql);
 
+
+                            echo "
+                                    <table>
+
+                                      <tr>";
+
                             if ($result->num_rows > 0) {
                                 while($row = $result->fetch_assoc()) {
 
                                     
                                     $instrument = $row["Instruments_ins_name"];
 
-                                    echo "<input type='checkbox' class='form' value='$instrument' name='checkbox[]' /> $instrument <br />";
+                                    echo "<td><input type='checkbox' class='form' value='$instrument' name='checkbox[]' /> $instrument <br /></td>";
         
                                 }
                             } 
+                            echo "
+                                    </tr>
+
+                                      </table>";
+
+                            //////////////////////////////////////////////////////////////////
+
+                            $sql = "SELECT station_id FROM station WHERE Cruise_c_id = $cruiseID";
+                            $result = $mysqli->query($sql);
+
+
+                            echo "<h2>Stations in Cruise</h2>
+                                    <table>
+
+                                      <tr>";
+
+                            if ($result->num_rows > 0) {
+                                while($row = $result->fetch_assoc()) {
+
+                                    
+                                    $Stations = $row["station_id"];
+
+                                    echo "<td>$Stations</td>";
+        
+                                }
+                            } 
+                            echo "
+                                    </tr>
+
+                                      </table>";
 
                             $mysqli->close();
                             ?>
 
-                        <br><br><br><br>
-
                         <h2>Description</h2>
                         
-                        <input id="disc" name="disc" type="text" required></inputid>
+                        <textarea id="disc" name="disc" type="text" required></textarea>
 
                          <!-- done button Section -->
                             <section id="done">
