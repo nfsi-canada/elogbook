@@ -8957,3 +8957,16 @@
 2024-05-23T13:38:45.043599Z 3 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
 2024-05-23T13:39:08.836262Z 4 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
 2024-05-23T13:39:08.837212Z 4 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-23T14:40:18.786457Z 159 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-23T14:40:18.787505Z 159 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`crew` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-23T14:40:23.984818Z 163 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-23T14:40:23.986585Z 163 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`station` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-23T14:47:55.767304Z 191 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-23T14:47:55.768502Z 191 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-23T14:47:57.375868Z 195 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-23T14:47:57.376848Z 195 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-23T14:47:57.404403Z 195 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-23T14:47:57.405525Z 195 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-23T16:14:53.268234Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1851838ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T16:30:20.669017Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-23T16:30:20.671021Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`logs_has_instruments` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.

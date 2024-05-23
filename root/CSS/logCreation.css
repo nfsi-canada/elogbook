@@ -9,7 +9,7 @@
 button
 {
     width: 40%;
-    height: 10%;
+    height: 80px;
     border-radius: 10px;
     border: white solid 2px;
     background-color: blue;
@@ -40,6 +40,9 @@ textarea {
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
+}
+.menu {
+    display: flex;
 }
 /* ===============================
    Mobile Styles: 0px to 768px 
@@ -74,7 +77,7 @@ textarea {
     }
     #done{
         left: 0px;
-        height: 800px;
+        height: 100%;
         width: 100%;
     }
     #dbutt{
@@ -87,6 +90,9 @@ textarea {
         box-sizing: border-box;
         float: left;
         border: 1px solid;
+    }
+    .menu {
+      flex-direction: column;
     }
 }
 /* ===============================
@@ -130,7 +136,7 @@ textarea {
     }
     #done{
         left: 0px;
-        height: 800px;
+        height: 100%;
         width: 100%;
     }
     #dbutt{
@@ -182,7 +188,7 @@ textarea {
     }
     #done{
         left: 0px;
-        height: 800px;
+        height: 100%;
         width: 100%;
     }
     #dbutt{
@@ -201,5 +207,8 @@ textarea {
     }
     table{
         width: 98%;
+    }
+    .ul{
+        width: 10%;
     }
 }
