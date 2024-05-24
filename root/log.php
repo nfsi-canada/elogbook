@@ -18,8 +18,8 @@
 		<meta name="keywords" content="log">
 		<meta name="author" content="Forde Nedimović">
 		<title>E-Log Log</title>
-        <link href="..\CSS\base.css" rel="stylesheet">
-        <link href="..\CSS\fullLog.css" rel="stylesheet">
+        <link href="CSS/base.css" rel="stylesheet">
+        <link href="CSS/fullLog.css" rel="stylesheet">
     </head>
 
     <body>

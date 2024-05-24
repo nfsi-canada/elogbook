@@ -82,6 +82,6 @@ if ($mysqli->query($sql) === TRUE) {
 
 $mysqli->close();
 
-header("Location: ..\createChoose.php");
+header("Location: ../createChoose.php");
 
 ?>

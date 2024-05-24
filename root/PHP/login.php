@@ -27,7 +27,7 @@ if ($result->num_rows > 0) {
 
             $_SESSION["userID"] = $username;
             
-            header("Location: ..\createChoose.php");
+            header("Location: ../createChoose.php");
     
 
             exit();
@@ -35,7 +35,7 @@ if ($result->num_rows > 0) {
     }
 } 
 
-header("Location: ..\index.php");
+header("Location: ../index.php");
 
 $mysqli->close();
 

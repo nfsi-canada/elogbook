@@ -60,6 +60,6 @@ $mysqli->close();
 
 $c_name = $_GET["CNAME"]; 
 
-header("Location: ..\logs.php?CID=$c_id&CNAME=%24$cname");
+header("Location: ../logs.php?CID=$c_id&CNAME=%24$cname");
 
 ?>

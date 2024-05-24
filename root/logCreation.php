@@ -17,8 +17,8 @@
 		<meta name="keywords" content="log, logs, creation">
 		<meta name="author" content="Forde Nedimović">
 		<title>E-Log Curise Log Creation</title>
-        <link href="..\CSS\base.css" rel="stylesheet">
-        <link href="..\CSS\logcreation.css" rel="stylesheet">
+        <link href="CSS/base.css" rel="stylesheet">
+        <link href="CSS/logcreation.css" rel="stylesheet">
     </head>
 
     <body>
@@ -50,7 +50,7 @@
 
                     ?>
 
-                        <form action='PHP\logMaker.php' method='get' >
+                        <form action='PHP/logMaker.php' method='get' >
                         
                         <?php
                         $c_id = $_GET["CID"]; 
@@ -174,7 +174,7 @@
                          <!-- done button Section -->
                             <section id="done">
                      
-                                <a href="PHP\logMaker.php"><button type="submit" id="dbutt">CREATE LOG!</button></a>
+                                <a href="PHP/logMaker.php"><button type="submit" id="dbutt">CREATE LOG!</button></a>
 
                              </section>
                         <!-- done button Section End -->
@@ -190,7 +190,7 @@
             </section>
             <!-- dropdown Section End -->
         
-        <script src="..\javascript\logMaker.js"></script>
+        <script src="javascript/logMaker.js"></script>
 
     </body>
 </html>

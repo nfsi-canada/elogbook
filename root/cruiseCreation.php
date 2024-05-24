@@ -18,8 +18,8 @@
 		<meta name="keywords" content="login, first,">
 		<meta name="author" content="Forde Nedimović">
 		<title>E-Log Curise Creation</title>
-        <link href="..\CSS\base.css" rel="stylesheet">
-        <link href="..\CSS\cruiseCreate.css" rel="stylesheet">
+        <link href="CSS/base.css" rel="stylesheet">
+        <link href="CSS/cruiseCreate.css" rel="stylesheet">
     </head>
 
     <body>
@@ -37,7 +37,7 @@
         </header>
         <!-- Header Section End -->
 
-    <form action='PHP\cruiseMaker.php' method='get'>   
+    <form action='PHP/cruiseMaker.php' method='get'>   
         <!-- fillout Section -->
         <section id="formfill">
 
@@ -130,7 +130,7 @@
                     <!-- done button Section -->
                     <section id="done">
 
-                        <a href="PHP\cruiseMaker.php"><button type="submit" id="dbutt">DONE!</button></a>
+                        <a href="PHP/cruiseMaker.php"><button type="submit" id="dbutt">DONE!</button></a>
 
                     </section>
                     <!-- done button Section end-->

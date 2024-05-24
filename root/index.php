@@ -18,8 +18,8 @@
 		<meta name="keywords" content="login, first,">
 		<meta name="author" content="Forde Nedimović">
 		<title>E-Log Login</title>
-        <link href="..\CSS\base.css" rel="stylesheet">
-        <link href="..\CSS\login.css" rel="stylesheet">
+        <link href="CSS/base.css" rel="stylesheet">
+        <link href="CSS/login.css" rel="stylesheet">
     </head>
 
     <body>
@@ -39,7 +39,7 @@
             <div class="loginFlex-container">
                 
                 <div class="loginText-container">
-                    <form action="..\PHP\login.php" method="get" >
+                    <form action="PHP/login.php" method="get" >
                         <br><br><br>
 
                         <label for="username"><b>Username</b></label>

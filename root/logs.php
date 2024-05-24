@@ -17,8 +17,8 @@
 		<meta name="keywords" content="log, logs, list">
 		<meta name="author" content="Forde Nedimović">
 		<title>E-Log Curise Logs</title>
-        <link href="..\CSS\base.css" rel="stylesheet">
-        <link href="..\CSS\logList.css" rel="stylesheet">
+        <link href="CSS/base.css" rel="stylesheet">
+        <link href="CSS/logList.css" rel="stylesheet">
     </head>
 
     <body>
@@ -147,7 +147,7 @@
         </section>
             <!-- log Section End -->
 
-    <!-- <script src="..\javascript\logs.js"></script> -->
+    <!-- <script src="javascript/logs.js"></script> -->
 
     </body>
 </html>

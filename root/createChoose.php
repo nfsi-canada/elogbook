@@ -18,8 +18,8 @@
 		<meta name="keywords" content="create, Choose, first,">
 		<meta name="author" content="Forde Nedimović">
 		<title>Create / Choose</title>
-        <link href="..\CSS\base.css" rel="stylesheet">
-        <link href="..\CSS\createChoose.css" rel="stylesheet">
+        <link href="CSS/base.css" rel="stylesheet">
+        <link href="CSS/createChoose.css" rel="stylesheet">
     </head>
 
     <body>

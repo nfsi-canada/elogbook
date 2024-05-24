@@ -18,8 +18,8 @@
 		<meta name="keywords" content="crusie, list">
 		<meta name="author" content="Forde Nedimović">
 		<title>E-Log Curise List</title>
-        <link href="..\CSS\base.css" rel="stylesheet">
-        <link href="..\CSS\cruiseList.css" rel="stylesheet">
+        <link href="CSS/base.css" rel="stylesheet">
+        <link href="CSS/cruiseList.css" rel="stylesheet">
     </head>
 
     <body>
@@ -127,7 +127,7 @@
         </section>
             <!-- cList Section End -->
 
-    <!-- <script src="..\javascript\cruiseList.js"></script> -->
+    <!-- <script src="javascript/cruiseList.js"></script> -->
     
     </body>
 </html>
