@@ -27,7 +27,7 @@ if ($mysqli->query($sql) === TRUE) {
     echo "Error: " . $sql . "<br>" . $mysqli->error;
   }
 
-$sql = "INSERT INTO logs (date, time, type, text, Cruise_c_id, Crew_crew_name1, Crew_Cruise_c_id1)
+$sql = "INSERT INTO logs (date, time, type, text, cruise_c_id, crew_crew_name1, crew_cruise_c_id1)
 VALUES (?, ?, ?, ?, ?, ?, ?)";
 
 $stmt= $mysqli->prepare($sql);
@@ -42,7 +42,7 @@ $row = mysqli_fetch_array($result);
 $newID = $row['log_id'];
 
 foreach($_GET['checkbox'] as $checkbox){
-    $sql = "INSERT INTO logs_has_instruments (logs_log_id, Instruments_ins_name) VALUES (?, ?)";
+    $sql = "INSERT INTO logs_has_instruments (logs_log_id, instruments_ins_name) VALUES (?, ?)";
     $stmt= $mysqli->prepare($sql);
     $stmt->bind_param("is", $newID, $checkbox);
     $stmt->execute();

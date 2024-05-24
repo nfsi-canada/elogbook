@@ -114,7 +114,7 @@
 
                             $cruiseID = $_GET["CID"];  
 
-                            $sql = "SELECT Instruments_ins_name FROM cruise_has_instruments WHERE Cruise_c_id = $cruiseID";
+                            $sql = "SELECT instruments_ins_name FROM cruise_has_instruments WHERE cruise_c_id = $cruiseID";
                             $result = $mysqli->query($sql);
 
 
@@ -127,7 +127,7 @@
                                 while($row = $result->fetch_assoc()) {
 
                                     
-                                    $instrument = $row["Instruments_ins_name"];
+                                    $instrument = $row["instruments_ins_name"];
 
                                     echo "<td><input type='checkbox' class='form' value='$instrument' name='checkbox[]' /> $instrument <br /></td>";
         
@@ -140,7 +140,7 @@
 
                             //////////////////////////////////////////////////////////////////
 
-                            $sql = "SELECT station_id FROM station WHERE Cruise_c_id = $cruiseID";
+                            $sql = "SELECT station_id FROM station WHERE cruise_c_id = $cruiseID";
                             $result = $mysqli->query($sql);
 
 

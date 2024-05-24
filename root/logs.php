@@ -95,7 +95,7 @@
 
                             $cruiseID = $_GET["CID"];  
 
-                            $sql = "SELECT log_id, date, time, type, text, Crew_crew_name1  FROM logs WHERE Cruise_c_id = $cruiseID ORDER BY date DESC, time DESC";
+                            $sql = "SELECT log_id, date, time, type, text, crew_crew_name1  FROM logs WHERE cruise_c_id = $cruiseID ORDER BY date DESC, time DESC";
                             $result = $mysqli->query($sql);
 
                             if ($result->num_rows > 0) {
@@ -107,14 +107,14 @@
                                     $time = $row["time"];
                                     $type = $row["type"];
                                     $text = $row["text"];
-                                    $Crew_crew_name1 = $row["Crew_crew_name1"];
+                                    $crew_crew_name1 = $row["crew_crew_name1"];
 
                                     echo "<tr>";
                                     echo "<td>$date</td>";
                                     echo "<td>$time</td>";
                                     echo "<td>$type</td>";
                                     echo "<td>$text</td>";
-                                    echo "<td>$Crew_crew_name1</td>";
+                                    echo "<td>$crew_crew_name1</td>";
 
                                     echo "<th> 
                             

@@ -44,7 +44,7 @@ $row = mysqli_fetch_array($result);
 $newID = $row['c_id'];
 
 foreach($_GET['checkbox'] as $checkbox){
-    $sql = "INSERT INTO cruise_has_instruments (Cruise_c_id, Instruments_ins_name) VALUES (?, ?)";
+    $sql = "INSERT INTO cruise_has_instruments (cruise_c_id, instruments_ins_name) VALUES (?, ?)";
     $stmt= $mysqli->prepare($sql);
     $stmt->bind_param("is", $newID, $checkbox);
     $stmt->execute();
@@ -59,14 +59,14 @@ foreach($_GET['checkbox'] as $checkbox){
 //for some reason
 
 foreach($_GET['checkboxTwo'] as $checkboxTwo){
-    $sql = "INSERT INTO station (station_id, Cruise_c_id) VALUES (?, ?)";
+    $sql = "INSERT INTO station (station_id, cruise_c_id) VALUES (?, ?)";
     $stmt= $mysqli->prepare($sql);
     $stmt->bind_param("si", $checkboxTwo, $newID );
     $stmt->execute();
     
 }
 foreach($_GET['checkboxThree'] as $checkboxThree){
-    $sql = "INSERT INTO crew (crew_name, Cruise_c_id) VALUES (?, ?)";
+    $sql = "INSERT INTO crew (crew_name, cruise_c_id) VALUES (?, ?)";
     $stmt= $mysqli->prepare($sql);
     $stmt->bind_param("si", $checkboxThree, $newID );
     $stmt->execute();

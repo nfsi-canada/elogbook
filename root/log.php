@@ -60,16 +60,16 @@
 
                 $logID = $_GET["logID"]; 
 
-                $sql = "SELECT text, Crew_crew_name1  FROM logs WHERE log_id = $logID";
+                $sql = "SELECT text, crew_crew_name1  FROM logs WHERE log_id = $logID";
                 $result = $mysqli->query($sql);
 
                 if ($result->num_rows > 0) {
                     while($row = $result->fetch_assoc()) {
 
                         $text = $row["text"];
-                        $Crew_crew_name1 = $row["Crew_crew_name1"];
+                        $crew_crew_name1 = $row["crew_crew_name1"];
 
-                        echo "<h2>Author: $Crew_crew_name1</h2>";
+                        echo "<h2>Author: $crew_crew_name1</h2>";
                         echo "<p>$text</p>";
 
                         
