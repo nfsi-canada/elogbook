@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/*
+	E-Log exportData Style Sheet
+    Author: Forde Nedimović
+    Creation Date: 2024/01/22 
+    Modified Date: 2024/02/07
+*/
+button
+{
+    width: 40%;
+    height: 10%;
+    border-radius: 10px;
+    border: white solid 2px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+h1{
+    color: blue;
+}
+button:hover {
+    background-color: darkblue;
+}
+/* ===============================
+   Mobile Styles: 0px to 768px 
+   ===============================
+*/
+@media only screen and (max-width: 600px) and (min-width: 0px)
+{
+    #data
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .dataFlex-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .dataText-container
+    {
+        width: 100%;
+        height: 100%;
+        background-color: #f5f5f5;
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    table tr td {
+        display: block;
+        width: 50%;
+        box-sizing: border-box;
+        float: left;
+        border: 1px solid;
+    }
+}
+/* ===============================
+   Tablet Styles: 769px to 1000px 
+   ===============================
+*/
+@media only screen and (max-width: 800px) and (min-width: 600px)
+{
+    #data
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .dataFlex-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .dataText-container
+    {
+        width: 100%;
+        height: 100%;
+        background-color: #f5f5f5;
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    button{
+        width: 100px;
+        height: 50px;
+        margin: 20px;
+    }
+    
+}
+/* =================================================
+   Desktop Styles: greater than 1000px
+   =================================================
+*/
+@media only screen and (max-width: 1500px) and (min-width: 800px) 
+{
+    #data
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .dataFlex-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .dataText-container
+    {
+        width: 100%;
+        height: 100%;
+        background-color: #f5f5f5;
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    table, th, td {
+        border: 1px solid;
+    }
+    table{
+        width: 100%;
+    }
+}

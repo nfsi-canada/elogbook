@@ -9265,3 +9265,1144 @@
 2024-05-24T14:47:36.786245Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
 2024-05-24T14:47:36.788212Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`crew` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
 2024-05-24T15:29:35.235939Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1146271ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-24T16:14:44.553101Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-05-24T16:14:44.553209Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-05-24T16:14:44.554637Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-05-24T16:14:44.554682Z 0 [Note] C:\Users\kovan\OneDrive\Desktop\elogbook/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 38312 ...
+2024-05-24T16:14:44.566086Z 0 [ERROR] Error message file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2024-05-24T16:14:44.627062Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-24T16:14:44.628312Z 0 [Note] InnoDB: Uses event mutexes
+2024-05-24T16:14:44.629075Z 0 [Note] InnoDB: Memory barrier is not used
+2024-05-24T16:14:44.629930Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-05-24T16:14:44.634639Z 0 [Note] InnoDB: Number of pools: 1
+2024-05-24T16:14:44.637913Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-05-24T16:14:44.647923Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-05-24T16:14:44.658480Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-24T16:14:44.749695Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-05-24T16:14:44.753504Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1687428
+2024-05-24T16:14:44.754920Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1687437
+2024-05-24T16:14:44.756465Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-05-24T16:14:44.757496Z 0 [Note] InnoDB: Starting crash recovery.
+2024-05-24T16:14:45.034392Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-24T16:14:45.035635Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-24T16:14:45.037900Z 0 [Note] InnoDB: Setting file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-24T16:14:45.171591Z 0 [Note] InnoDB: File 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size is now 12 MB.
+2024-05-24T16:14:45.192054Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-05-24T16:14:45.193702Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-05-24T16:14:45.195546Z 0 [Note] InnoDB: Waiting for purge to start
+2024-05-24T16:14:45.250451Z 0 [Note] InnoDB: Waiting for purge to start
+2024-05-24T16:14:45.312967Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 1687437
+2024-05-24T16:14:45.315447Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool
+2024-05-24T16:14:45.316013Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-05-24T16:14:45.318937Z 0 [ERROR] InnoDB: Cannot open 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2024-05-24T16:14:45.349553Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2024-05-24T16:14:45.368211Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2024-05-24T16:14:45.385385Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2024-05-24T16:14:45.387479Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2024-05-24T16:14:45.389136Z 0 [Warning] 
+2024-05-24T16:14:45.389634Z 0 [Warning] 
+2024-05-24T16:14:45.429644Z 0 [Warning] CA certificate ca.pem is self signed.
+2024-05-24T16:14:45.431640Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2024-05-24T16:14:45.453375Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-05-24T16:14:45.454946Z 0 [Note] IPv6 is available.
+2024-05-24T16:14:45.456591Z 0 [Note]   - '::' resolves to '::';
+2024-05-24T16:14:45.458734Z 0 [Note] Server socket created on IP: '::'.
+2024-05-24T16:14:45.462498Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2024-05-24T16:14:45.749760Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2024-05-24T16:14:45.750711Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2024-05-24T16:14:45.751564Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2024-05-24T16:14:45.752380Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2024-05-24T16:14:45.753326Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2024-05-24T16:14:45.822994Z 0 [Warning] System table 'servers' is expected to be transactional.
+2024-05-24T16:14:45.853708Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-05-24T16:14:45.865133Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-05-24T16:14:45.868403Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-05-24T16:14:45.871291Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2024-05-24T16:14:45.885746Z 0 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-05-24T16:14:45.888536Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-05-24T16:14:45.891756Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2024-05-24T16:14:45.893525Z 0 [Note] Failed to start slave threads for channel ''
+2024-05-24T16:14:45.922823Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-05-24T16:14:45.939422Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-05-24T16:14:45.961521Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-05-24T16:14:46.033664Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-24T16:14:46.052033Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-24T16:14:46.229979Z 0 [ERROR] 
+2024-05-24T16:14:46.273373Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2024-05-24T16:14:46.342100Z 0 [ERROR] 
+2024-05-24T16:14:46.352665Z 0 [ERROR] 
+2024-05-24T16:14:46.365785Z 0 [ERROR] 
+2024-05-24T16:14:46.379319Z 0 [ERROR] 
+2024-05-24T16:14:46.394362Z 0 [ERROR] 
+2024-05-24T16:14:46.418432Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-24T16:14:46.433123Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-24T16:14:46.469767Z 0 [ERROR] 
+2024-05-24T16:14:46.486126Z 0 [ERROR] 
+2024-05-24T16:14:46.500432Z 0 [ERROR] 
+2024-05-24T16:14:46.527461Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-24T16:14:46.545353Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-24T16:14:46.584525Z 0 [ERROR] 
+2024-05-24T16:14:46.585120Z 0 [ERROR] 
+2024-05-24T16:14:46.585675Z 0 [ERROR] 
+2024-05-24T16:14:46.586228Z 0 [ERROR] 
+2024-05-24T16:14:46.586788Z 0 [ERROR] 
+2024-05-24T16:14:46.587341Z 0 [ERROR] 
+2024-05-24T16:14:46.587917Z 0 [ERROR] 
+2024-05-24T16:14:46.588512Z 0 [ERROR] 
+2024-05-24T16:14:46.589069Z 0 [ERROR] 
+2024-05-24T16:14:46.599589Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-24T16:14:46.611935Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-24T16:14:46.689788Z 0 [ERROR] 
+2024-05-24T16:14:46.690748Z 0 [ERROR] 
+2024-05-24T16:14:46.691343Z 0 [ERROR] 
+2024-05-24T16:14:46.691899Z 0 [ERROR] 
+2024-05-24T16:14:46.692463Z 0 [ERROR] 
+2024-05-24T16:14:46.693021Z 0 [ERROR] 
+2024-05-24T16:14:46.693608Z 0 [ERROR] 
+2024-05-24T16:14:46.694414Z 0 [ERROR] 
+2024-05-24T16:14:46.695019Z 0 [ERROR] 
+2024-05-24T16:14:46.695591Z 0 [ERROR] 
+2024-05-24T16:14:46.696158Z 0 [ERROR] 
+2024-05-24T16:14:46.696719Z 0 [ERROR] 
+2024-05-24T16:14:46.697292Z 0 [ERROR] 
+2024-05-24T16:14:46.697854Z 0 [ERROR] 
+2024-05-24T16:14:46.698456Z 0 [ERROR] 
+2024-05-24T16:14:46.699042Z 0 [ERROR] 
+2024-05-24T16:14:46.699831Z 0 [ERROR] 
+2024-05-24T16:14:46.700570Z 0 [ERROR] 
+2024-05-24T16:14:46.701273Z 0 [ERROR] 
+2024-05-24T16:14:46.701908Z 0 [ERROR] 
+2024-05-24T16:14:46.702716Z 0 [ERROR] 
+2024-05-24T16:14:46.703690Z 0 [ERROR] 
+2024-05-24T16:14:46.704560Z 0 [ERROR] 
+2024-05-24T16:14:46.705520Z 0 [ERROR] 
+2024-05-24T16:14:46.707132Z 0 [ERROR] 
+2024-05-24T16:14:46.708012Z 0 [ERROR] 
+2024-05-24T16:14:46.708961Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2024-05-24T16:14:46.710977Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2024-05-24T16:14:46.730751Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2024-05-24T16:14:46.732982Z 0 [Note] 
+2024-05-24T16:14:54.827435Z 4 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:14:54.828634Z 4 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:15:20.615670Z 30 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:20.616948Z 30 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`crew` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:15:20.631257Z 30 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:20.632603Z 30 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:15:20.644422Z 30 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:20.646202Z 30 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:15:20.656169Z 30 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:20.657782Z 30 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:15:20.666935Z 30 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:20.667764Z 30 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:15:20.675846Z 30 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:20.676663Z 30 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`station` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:15:20.683770Z 30 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:20.684580Z 30 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:15:34.799360Z 36 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:34.807866Z 36 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:34.813170Z 36 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:34.818146Z 36 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:34.822710Z 36 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:34.828081Z 36 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:34.833134Z 36 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:34.837939Z 36 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:45.013819Z 52 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:45.067348Z 52 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:45.139464Z 52 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:45.204693Z 52 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:45.261181Z 52 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:45.314778Z 52 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:45.380962Z 52 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:45.429471Z 52 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:52.468751Z 66 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:52.470558Z 66 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`crew` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:15:52.501356Z 66 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:52.502213Z 66 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:15:54.223123Z 70 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:15:54.224846Z 70 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:16:18.049328Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:16:18.050788Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`user` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-24T16:16:48.746797Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:16:48.747929Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`user` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-24T16:16:53.576901Z 118 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:16:53.578064Z 118 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`station` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:16:54.368651Z 122 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:16:54.370154Z 122 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:16:54.399973Z 122 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:16:54.400907Z 122 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:16:54.409002Z 122 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:16:54.410199Z 122 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:16:56.408339Z 134 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:16:56.409350Z 134 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-24T16:24:39.945502Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:24:39.946809Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`cruise_has_instruments` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-24T16:24:39.970370Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:24:39.971341Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`station` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-24T16:24:49.983422Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:24:49.984458Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`cruise_has_instruments` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-24T16:24:59.997870Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:25:00.000383Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`crew` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-24T16:25:47.796062Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:25:47.797467Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`logs_has_instruments` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-24T16:25:57.804946Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:25:57.806081Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`logs_has_instruments` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-24T16:27:42.258035Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:27:42.262007Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`logs` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-24T16:27:59.376379Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:27:59.377619Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`logs_has_instruments` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-24T16:28:09.382503Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-24T16:28:09.383896Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `sakila`.`logs_has_instruments` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-27T16:01:50.142751Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-05-27T16:01:50.143936Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-05-27T16:01:50.147004Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-05-27T16:01:50.147042Z 0 [Note] C:\Users\kovan\OneDrive\Desktop\elogbook/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 19072 ...
+2024-05-27T16:01:50.163340Z 0 [ERROR] Error message file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2024-05-27T16:01:50.239712Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-27T16:01:50.241086Z 0 [Note] InnoDB: Uses event mutexes
+2024-05-27T16:01:50.241844Z 0 [Note] InnoDB: Memory barrier is not used
+2024-05-27T16:01:50.242793Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-05-27T16:01:50.246846Z 0 [Note] InnoDB: Number of pools: 1
+2024-05-27T16:01:50.251023Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-05-27T16:01:50.259725Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-05-27T16:01:50.273333Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-27T16:01:50.388208Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-05-27T16:01:50.391666Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1752914
+2024-05-27T16:01:50.392939Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1752923
+2024-05-27T16:01:50.394718Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-05-27T16:01:50.395714Z 0 [Note] InnoDB: Starting crash recovery.
+2024-05-27T16:01:50.733542Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-27T16:01:50.734715Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-27T16:01:50.736902Z 0 [Note] InnoDB: Setting file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-27T16:01:50.758948Z 0 [Note] InnoDB: File 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size is now 12 MB.
+2024-05-27T16:01:50.794907Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-05-27T16:01:50.797041Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-05-27T16:01:50.799623Z 0 [Note] InnoDB: Waiting for purge to start
+2024-05-27T16:01:50.854008Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 1752923
+2024-05-27T16:01:50.855634Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool
+2024-05-27T16:01:50.856680Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-05-27T16:01:50.857466Z 0 [ERROR] InnoDB: Cannot open 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2024-05-27T16:01:50.889740Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2024-05-27T16:01:50.906639Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2024-05-27T16:01:50.921254Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2024-05-27T16:01:50.922669Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2024-05-27T16:01:50.923897Z 0 [Warning] 
+2024-05-27T16:01:50.924287Z 0 [Warning] 
+2024-05-27T16:01:50.962417Z 0 [Warning] CA certificate ca.pem is self signed.
+2024-05-27T16:01:50.964390Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2024-05-27T16:01:50.987352Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-05-27T16:01:50.988772Z 0 [Note] IPv6 is available.
+2024-05-27T16:01:50.989473Z 0 [Note]   - '::' resolves to '::';
+2024-05-27T16:01:50.990358Z 0 [Note] Server socket created on IP: '::'.
+2024-05-27T16:01:50.993361Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2024-05-27T16:01:51.228393Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2024-05-27T16:01:51.229839Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2024-05-27T16:01:51.231190Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2024-05-27T16:01:51.232360Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2024-05-27T16:01:51.233633Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2024-05-27T16:01:51.322135Z 0 [Warning] System table 'servers' is expected to be transactional.
+2024-05-27T16:01:51.356857Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-05-27T16:01:51.372801Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-05-27T16:01:51.378692Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-05-27T16:01:51.382261Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2024-05-27T16:01:51.402475Z 0 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-05-27T16:01:51.406630Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-05-27T16:01:51.410686Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2024-05-27T16:01:51.412744Z 0 [Note] Failed to start slave threads for channel ''
+2024-05-27T16:01:51.447421Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-05-27T16:01:51.466181Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-05-27T16:01:51.484708Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-05-27T16:01:51.589507Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-27T16:01:51.614126Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-27T16:01:51.791712Z 0 [ERROR] 
+2024-05-27T16:01:51.844213Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2024-05-27T16:01:51.919412Z 0 [ERROR] 
+2024-05-27T16:01:51.937097Z 0 [ERROR] 
+2024-05-27T16:01:51.954712Z 0 [ERROR] 
+2024-05-27T16:01:51.976373Z 0 [ERROR] 
+2024-05-27T16:01:51.991841Z 0 [ERROR] 
+2024-05-27T16:01:52.031783Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-27T16:01:52.051860Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-27T16:01:52.104606Z 0 [ERROR] 
+2024-05-27T16:01:52.120925Z 0 [ERROR] 
+2024-05-27T16:01:52.138792Z 0 [ERROR] 
+2024-05-27T16:01:52.169842Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-27T16:01:52.190069Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-27T16:01:52.240653Z 0 [ERROR] 
+2024-05-27T16:01:52.241565Z 0 [ERROR] 
+2024-05-27T16:01:52.242936Z 0 [ERROR] 
+2024-05-27T16:01:52.243853Z 0 [ERROR] 
+2024-05-27T16:01:52.244705Z 0 [ERROR] 
+2024-05-27T16:01:52.245558Z 0 [ERROR] 
+2024-05-27T16:01:52.246420Z 0 [ERROR] 
+2024-05-27T16:01:52.247295Z 0 [ERROR] 
+2024-05-27T16:01:52.248216Z 0 [ERROR] 
+2024-05-27T16:01:52.259757Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-27T16:01:52.272841Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-05-27T16:01:52.358749Z 0 [ERROR] 
+2024-05-27T16:01:52.360069Z 0 [ERROR] 
+2024-05-27T16:01:52.361099Z 0 [ERROR] 
+2024-05-27T16:01:52.362092Z 0 [ERROR] 
+2024-05-27T16:01:52.363068Z 0 [ERROR] 
+2024-05-27T16:01:52.364124Z 0 [ERROR] 
+2024-05-27T16:01:52.365140Z 0 [ERROR] 
+2024-05-27T16:01:52.365942Z 0 [ERROR] 
+2024-05-27T16:01:52.366664Z 0 [ERROR] 
+2024-05-27T16:01:52.367757Z 0 [ERROR] 
+2024-05-27T16:01:52.368931Z 0 [ERROR] 
+2024-05-27T16:01:52.369820Z 0 [ERROR] 
+2024-05-27T16:01:52.370863Z 0 [ERROR] 
+2024-05-27T16:01:52.371728Z 0 [ERROR] 
+2024-05-27T16:01:52.372846Z 0 [ERROR] 
+2024-05-27T16:01:52.373974Z 0 [ERROR] 
+2024-05-27T16:01:52.375173Z 0 [ERROR] 
+2024-05-27T16:01:52.377278Z 0 [ERROR] 
+2024-05-27T16:01:52.377923Z 0 [ERROR] 
+2024-05-27T16:01:52.378589Z 0 [ERROR] 
+2024-05-27T16:01:52.379547Z 0 [ERROR] 
+2024-05-27T16:01:52.380430Z 0 [ERROR] 
+2024-05-27T16:01:52.381226Z 0 [ERROR] 
+2024-05-27T16:01:52.382081Z 0 [ERROR] 
+2024-05-27T16:01:52.383036Z 0 [ERROR] 
+2024-05-27T16:01:52.384361Z 0 [ERROR] 
+2024-05-27T16:01:52.385745Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2024-05-27T16:01:52.387731Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2024-05-27T16:01:52.411409Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2024-05-27T16:01:52.413387Z 0 [Note] 
+2024-05-27T16:02:00.485466Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-27T16:02:00.487180Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-27T16:03:54.366675Z 3 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-27T16:03:54.367500Z 3 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-27T16:03:55.858330Z 4 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-27T16:03:55.859301Z 4 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-27T16:03:55.884376Z 4 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-27T16:03:55.885345Z 4 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`station` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-27T16:04:34.505891Z 7 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-05-27T16:04:34.506918Z 7 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`crew` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-27T18:13:23.519155Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3612815ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-06T12:50:23.660288Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-06-06T12:50:23.661293Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-06-06T12:50:23.663695Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-06-06T12:50:23.663726Z 0 [Note] C:\Users\kovan\OneDrive\Desktop\elogbook/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 20760 ...
+2024-06-06T12:50:23.675179Z 0 [ERROR] Error message file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2024-06-06T12:50:23.733997Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-06-06T12:50:23.734938Z 0 [Note] InnoDB: Uses event mutexes
+2024-06-06T12:50:23.735502Z 0 [Note] InnoDB: Memory barrier is not used
+2024-06-06T12:50:23.736136Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-06-06T12:50:23.738991Z 0 [Note] InnoDB: Number of pools: 1
+2024-06-06T12:50:23.742623Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-06-06T12:50:23.749341Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-06-06T12:50:23.759047Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-06T12:50:23.853624Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-06-06T12:50:23.856883Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1752942
+2024-06-06T12:50:23.857868Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1752951
+2024-06-06T12:50:23.859037Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-06-06T12:50:23.859826Z 0 [Note] InnoDB: Starting crash recovery.
+2024-06-06T12:50:24.179984Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-06-06T12:50:24.181227Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-06-06T12:50:24.183462Z 0 [Note] InnoDB: Setting file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-06-06T12:50:24.202169Z 0 [Note] InnoDB: File 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size is now 12 MB.
+2024-06-06T12:50:24.221288Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-06-06T12:50:24.223239Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-06-06T12:50:24.225078Z 0 [Note] InnoDB: Waiting for purge to start
+2024-06-06T12:50:24.307835Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 1752951
+2024-06-06T12:50:24.310426Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-06-06T12:50:24.329884Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool
+2024-06-06T12:50:24.333663Z 0 [ERROR] InnoDB: Cannot open 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2024-06-06T12:50:24.342671Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2024-06-06T12:50:24.359180Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2024-06-06T12:50:24.374831Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2024-06-06T12:50:24.376364Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2024-06-06T12:50:24.378317Z 0 [Warning] 
+2024-06-06T12:50:24.378837Z 0 [Warning] 
+2024-06-06T12:50:24.419212Z 0 [Warning] CA certificate ca.pem is self signed.
+2024-06-06T12:50:24.421144Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2024-06-06T12:50:24.444025Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-06-06T12:50:24.446156Z 0 [Note] IPv6 is available.
+2024-06-06T12:50:24.447119Z 0 [Note]   - '::' resolves to '::';
+2024-06-06T12:50:24.447992Z 0 [Note] Server socket created on IP: '::'.
+2024-06-06T12:50:24.451180Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2024-06-06T12:50:24.687613Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2024-06-06T12:50:24.688929Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2024-06-06T12:50:24.690120Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2024-06-06T12:50:24.691293Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2024-06-06T12:50:24.692639Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2024-06-06T12:50:24.775985Z 0 [Warning] System table 'servers' is expected to be transactional.
+2024-06-06T12:50:24.811756Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-06T12:50:24.824527Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-06T12:50:24.829668Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-06T12:50:24.834402Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2024-06-06T12:50:24.855630Z 0 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-06T12:50:24.859047Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-06T12:50:24.862702Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2024-06-06T12:50:24.864621Z 0 [Note] Failed to start slave threads for channel ''
+2024-06-06T12:50:24.899349Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-06T12:50:24.918837Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-06T12:50:24.940506Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-06T12:50:25.015403Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-06T12:50:25.039317Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-06T12:50:25.207720Z 0 [ERROR] 
+2024-06-06T12:50:25.265796Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2024-06-06T12:50:25.385452Z 0 [ERROR] 
+2024-06-06T12:50:25.401960Z 0 [ERROR] 
+2024-06-06T12:50:25.433528Z 0 [ERROR] 
+2024-06-06T12:50:25.470571Z 0 [ERROR] 
+2024-06-06T12:50:25.487706Z 0 [ERROR] 
+2024-06-06T12:50:25.637136Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-06T12:50:25.683602Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-06T12:50:25.766734Z 0 [ERROR] 
+2024-06-06T12:50:25.788854Z 0 [ERROR] 
+2024-06-06T12:50:25.809160Z 0 [ERROR] 
+2024-06-06T12:50:25.849936Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-06T12:50:25.899341Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-06T12:50:25.954182Z 0 [ERROR] 
+2024-06-06T12:50:25.955058Z 0 [ERROR] 
+2024-06-06T12:50:25.956182Z 0 [ERROR] 
+2024-06-06T12:50:25.957157Z 0 [ERROR] 
+2024-06-06T12:50:25.957976Z 0 [ERROR] 
+2024-06-06T12:50:25.958882Z 0 [ERROR] 
+2024-06-06T12:50:25.960348Z 0 [ERROR] 
+2024-06-06T12:50:25.961766Z 0 [ERROR] 
+2024-06-06T12:50:25.962644Z 0 [ERROR] 
+2024-06-06T12:50:25.978036Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-06T12:50:25.995260Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-06T12:50:26.102690Z 0 [ERROR] 
+2024-06-06T12:50:26.103646Z 0 [ERROR] 
+2024-06-06T12:50:26.104611Z 0 [ERROR] 
+2024-06-06T12:50:26.105502Z 0 [ERROR] 
+2024-06-06T12:50:26.106476Z 0 [ERROR] 
+2024-06-06T12:50:26.107380Z 0 [ERROR] 
+2024-06-06T12:50:26.108293Z 0 [ERROR] 
+2024-06-06T12:50:26.111965Z 0 [ERROR] 
+2024-06-06T12:50:26.113231Z 0 [ERROR] 
+2024-06-06T12:50:26.114326Z 0 [ERROR] 
+2024-06-06T12:50:26.115136Z 0 [ERROR] 
+2024-06-06T12:50:26.116345Z 0 [ERROR] 
+2024-06-06T12:50:26.117165Z 0 [ERROR] 
+2024-06-06T12:50:26.118055Z 0 [ERROR] 
+2024-06-06T12:50:26.118934Z 0 [ERROR] 
+2024-06-06T12:50:26.119800Z 0 [ERROR] 
+2024-06-06T12:50:26.120695Z 0 [ERROR] 
+2024-06-06T12:50:26.121628Z 0 [ERROR] 
+2024-06-06T12:50:26.122448Z 0 [ERROR] 
+2024-06-06T12:50:26.123253Z 0 [ERROR] 
+2024-06-06T12:50:26.124131Z 0 [ERROR] 
+2024-06-06T12:50:26.124971Z 0 [ERROR] 
+2024-06-06T12:50:26.126663Z 0 [ERROR] 
+2024-06-06T12:50:26.128472Z 0 [ERROR] 
+2024-06-06T12:50:26.129425Z 0 [ERROR] 
+2024-06-06T12:50:26.130222Z 0 [ERROR] 
+2024-06-06T12:50:26.131456Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2024-06-06T12:50:26.133728Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2024-06-06T12:50:26.157189Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2024-06-06T12:50:26.159891Z 0 [Note] 
+2024-06-06T15:07:16.298898Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1462203ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-06T15:55:28.347055Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1191093ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-06T16:16:22.277576Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1145033ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-06T16:51:05.201224Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 48635ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-06T16:59:10.186948Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-06T16:59:10.188214Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-06T16:59:12.624143Z 3 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-06T16:59:12.625286Z 3 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-06T16:59:13.804132Z 4 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-06T16:59:13.805298Z 4 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-06T16:59:29.153454Z 8 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-06T16:59:29.154534Z 8 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-06T16:59:29.186000Z 8 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-06T16:59:29.186900Z 8 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`station` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-06T17:21:35.233568Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 421043ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-06T17:41:42.050938Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 128217ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-06T19:21:26.546643Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4953359ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-06T20:10:08.310376Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 864764ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-07T00:28:18.290550Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 460919ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-07T03:50:53.290397Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5351ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-07T15:31:24.547900Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 41987758ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-07T18:00:34.251874Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 326215ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-07T19:59:55.299323Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 982139ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-07T21:38:25.835983Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4622308ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-08T00:06:34.387853Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 278285ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-08T14:14:29.303941Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26046644ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-08T20:08:21.233136Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3792639ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-09T02:03:06.543556Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 105964ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-09T13:19:03.352757Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28035363ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-09T20:22:38.346795Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 15379089ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-10T00:00:46.349389Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4476ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-10T01:08:54.613581Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2867146ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-10T11:30:35.284431Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27009610ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-10T13:19:33.275775Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4694308ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-10T13:56:26.289202Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-06-10T13:56:26.289562Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-06-10T13:56:26.290932Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-06-10T13:56:26.290953Z 0 [Note] C:\Users\kovan\OneDrive\Desktop\elogbook/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 22244 ...
+2024-06-10T13:56:26.304674Z 0 [ERROR] Error message file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2024-06-10T13:56:26.365889Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-06-10T13:56:26.366898Z 0 [Note] InnoDB: Uses event mutexes
+2024-06-10T13:56:26.367511Z 0 [Note] InnoDB: Memory barrier is not used
+2024-06-10T13:56:26.368198Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-06-10T13:56:26.371314Z 0 [Note] InnoDB: Number of pools: 1
+2024-06-10T13:56:26.373877Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-06-10T13:56:26.381671Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-06-10T13:56:26.391146Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-10T13:56:26.414908Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2024-06-10T13:56:26.416742Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2024-06-10T13:56:26.418398Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2024-06-10T13:56:26.646625Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2024-06-10T13:56:26.647786Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2024-06-10T13:56:26.648945Z 0 [ERROR] Failed to initialize builtin plugins.
+2024-06-10T13:56:26.649861Z 0 [ERROR] Aborting
+
+2024-06-10T13:56:26.650884Z 0 [Note] Binlog end
+2024-06-10T13:56:26.651784Z 0 [Note] Shutting down plugin 'CSV'
+2024-06-10T13:56:26.652902Z 0 [Note] 
+2024-06-10T13:56:49.080486Z 29 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-10T13:56:49.082021Z 29 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-10T16:45:14.525581Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-06-10T16:45:14.526540Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-06-10T16:45:14.528565Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-06-10T16:45:14.528597Z 0 [Note] C:\Users\kovan\OneDrive\Desktop\elogbook/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 31572 ...
+2024-06-10T16:45:14.529960Z 0 [ERROR] Error message file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2024-06-10T16:45:14.570226Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-06-10T16:45:14.571225Z 0 [Note] InnoDB: Uses event mutexes
+2024-06-10T16:45:14.571837Z 0 [Note] InnoDB: Memory barrier is not used
+2024-06-10T16:45:14.572526Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-06-10T16:45:14.575134Z 0 [Note] InnoDB: Number of pools: 1
+2024-06-10T16:45:14.577090Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-06-10T16:45:14.591103Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-06-10T16:45:14.605092Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-10T16:45:14.688134Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-06-10T16:45:14.691525Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1752970
+2024-06-10T16:45:14.693135Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1752979
+2024-06-10T16:45:14.694491Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-06-10T16:45:14.695271Z 0 [Note] InnoDB: Starting crash recovery.
+2024-06-10T16:45:15.076645Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-06-10T16:45:15.077995Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-06-10T16:45:15.080235Z 0 [Note] InnoDB: Setting file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-06-10T16:45:15.111000Z 0 [Note] InnoDB: File 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size is now 12 MB.
+2024-06-10T16:45:15.131829Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-06-10T16:45:15.133308Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-06-10T16:45:15.135364Z 0 [Note] InnoDB: Waiting for purge to start
+2024-06-10T16:45:15.201329Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 1752979
+2024-06-10T16:45:15.203131Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool
+2024-06-10T16:45:15.204582Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-06-10T16:45:15.206003Z 0 [ERROR] InnoDB: Cannot open 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2024-06-10T16:45:15.233794Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2024-06-10T16:45:15.249282Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2024-06-10T16:45:15.264669Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2024-06-10T16:45:15.266139Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2024-06-10T16:45:15.267400Z 0 [Warning] 
+2024-06-10T16:45:15.267801Z 0 [Warning] 
+2024-06-10T16:45:15.300019Z 0 [Warning] CA certificate ca.pem is self signed.
+2024-06-10T16:45:15.301616Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2024-06-10T16:45:15.322465Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-06-10T16:45:15.323749Z 0 [Note] IPv6 is available.
+2024-06-10T16:45:15.324572Z 0 [Note]   - '::' resolves to '::';
+2024-06-10T16:45:15.325856Z 0 [Note] Server socket created on IP: '::'.
+2024-06-10T16:45:15.328842Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2024-06-10T16:45:15.519278Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2024-06-10T16:45:15.520388Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2024-06-10T16:45:15.521635Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2024-06-10T16:45:15.522866Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2024-06-10T16:45:15.524386Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2024-06-10T16:45:15.626145Z 0 [Warning] System table 'servers' is expected to be transactional.
+2024-06-10T16:45:15.661842Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-10T16:45:15.675767Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-10T16:45:15.679818Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-10T16:45:15.683234Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2024-06-10T16:45:15.703061Z 0 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-10T16:45:15.706502Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-10T16:45:15.711534Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2024-06-10T16:45:15.714372Z 0 [Note] Failed to start slave threads for channel ''
+2024-06-10T16:45:15.752944Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-10T16:45:15.774293Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-10T16:45:15.796710Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-10T16:45:15.866184Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-10T16:45:15.887106Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-10T16:45:16.104064Z 0 [ERROR] 
+2024-06-10T16:45:16.151386Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2024-06-10T16:45:16.230424Z 0 [ERROR] 
+2024-06-10T16:45:16.246064Z 0 [ERROR] 
+2024-06-10T16:45:16.259664Z 0 [ERROR] 
+2024-06-10T16:45:16.272977Z 0 [ERROR] 
+2024-06-10T16:45:16.286336Z 0 [ERROR] 
+2024-06-10T16:45:16.323665Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-10T16:45:16.352920Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-10T16:45:16.414956Z 0 [ERROR] 
+2024-06-10T16:45:16.437069Z 0 [ERROR] 
+2024-06-10T16:45:16.484620Z 0 [ERROR] 
+2024-06-10T16:45:16.520344Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-10T16:45:16.539786Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-10T16:45:16.600065Z 0 [ERROR] 
+2024-06-10T16:45:16.601286Z 0 [ERROR] 
+2024-06-10T16:45:16.603589Z 0 [ERROR] 
+2024-06-10T16:45:16.604698Z 0 [ERROR] 
+2024-06-10T16:45:16.605663Z 0 [ERROR] 
+2024-06-10T16:45:16.606490Z 0 [ERROR] 
+2024-06-10T16:45:16.607496Z 0 [ERROR] 
+2024-06-10T16:45:16.608800Z 0 [ERROR] 
+2024-06-10T16:45:16.609721Z 0 [ERROR] 
+2024-06-10T16:45:16.624398Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-10T16:45:16.647295Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-10T16:45:16.850604Z 0 [ERROR] 
+2024-06-10T16:45:16.851744Z 0 [ERROR] 
+2024-06-10T16:45:16.861622Z 0 [ERROR] 
+2024-06-10T16:45:16.864547Z 0 [ERROR] 
+2024-06-10T16:45:16.866814Z 0 [ERROR] 
+2024-06-10T16:45:16.871778Z 0 [ERROR] 
+2024-06-10T16:45:16.875663Z 0 [ERROR] 
+2024-06-10T16:45:16.879810Z 0 [ERROR] 
+2024-06-10T16:45:16.881022Z 0 [ERROR] 
+2024-06-10T16:45:16.885039Z 0 [ERROR] 
+2024-06-10T16:45:16.888322Z 0 [ERROR] 
+2024-06-10T16:45:16.889683Z 0 [ERROR] 
+2024-06-10T16:45:16.892962Z 0 [ERROR] 
+2024-06-10T16:45:16.900311Z 0 [ERROR] 
+2024-06-10T16:45:16.910993Z 0 [ERROR] 
+2024-06-10T16:45:16.913907Z 0 [ERROR] 
+2024-06-10T16:45:16.918645Z 0 [ERROR] 
+2024-06-10T16:45:16.922271Z 0 [ERROR] 
+2024-06-10T16:45:16.927958Z 0 [ERROR] 
+2024-06-10T16:45:16.932066Z 0 [ERROR] 
+2024-06-10T16:45:16.942553Z 0 [ERROR] 
+2024-06-10T16:45:16.952623Z 0 [ERROR] 
+2024-06-10T16:45:16.959240Z 0 [ERROR] 
+2024-06-10T16:45:17.033125Z 0 [ERROR] 
+2024-06-10T16:45:17.037475Z 0 [ERROR] 
+2024-06-10T16:45:17.040773Z 0 [ERROR] 
+2024-06-10T16:45:17.045896Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2024-06-10T16:45:17.048474Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2024-06-10T16:45:17.158522Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2024-06-10T16:45:17.161146Z 0 [Note] 
+2024-06-10T16:48:49.973353Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-10T16:48:49.974772Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-10T16:48:50.014530Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-10T16:48:50.015868Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`station` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-10T16:58:28.748338Z 6 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-10T16:58:28.750060Z 6 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-10T16:58:49.495216Z 9 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-10T16:58:49.496141Z 9 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-10T17:05:57.098042Z 10 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-10T17:05:57.098880Z 10 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-10T17:23:28.499139Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 252098ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-10T19:19:29.306499Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4360446ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-10T20:49:14.818267Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 387298ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-10T21:38:05.258477Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 47132ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-11T13:54:36.357484Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27456343ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-11T15:52:13.330820Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 244232ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-13T13:11:38.019546Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-06-13T13:11:38.020370Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-06-13T13:11:38.022780Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-06-13T13:11:38.022806Z 0 [Note] C:\Users\kovan\OneDrive\Desktop\elogbook/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 16444 ...
+2024-06-13T13:11:38.034684Z 0 [ERROR] Error message file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2024-06-13T13:11:38.099463Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-06-13T13:11:38.100840Z 0 [Note] InnoDB: Uses event mutexes
+2024-06-13T13:11:38.101810Z 0 [Note] InnoDB: Memory barrier is not used
+2024-06-13T13:11:38.102745Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-06-13T13:11:38.106224Z 0 [Note] InnoDB: Number of pools: 1
+2024-06-13T13:11:38.112721Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-06-13T13:11:38.119919Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-06-13T13:11:38.133747Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-13T13:11:38.249829Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-06-13T13:11:38.253253Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1752998
+2024-06-13T13:11:38.254546Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1753007
+2024-06-13T13:11:38.255879Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-06-13T13:11:38.258786Z 0 [Note] InnoDB: Starting crash recovery.
+2024-06-13T13:11:38.638218Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-06-13T13:11:38.640707Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-06-13T13:11:38.642869Z 0 [Note] InnoDB: Setting file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-06-13T13:11:38.665123Z 0 [Note] InnoDB: File 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size is now 12 MB.
+2024-06-13T13:11:38.764507Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-06-13T13:11:38.765950Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-06-13T13:11:38.767711Z 0 [Note] InnoDB: Waiting for purge to start
+2024-06-13T13:11:38.820826Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 1753007
+2024-06-13T13:11:38.824014Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool
+2024-06-13T13:11:38.824654Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-06-13T13:11:38.826601Z 0 [ERROR] InnoDB: Cannot open 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2024-06-13T13:11:38.860661Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2024-06-13T13:11:38.874590Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2024-06-13T13:11:38.890055Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2024-06-13T13:11:38.891831Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2024-06-13T13:11:38.893340Z 0 [Warning] 
+2024-06-13T13:11:38.893821Z 0 [Warning] 
+2024-06-13T13:11:38.936919Z 0 [Warning] CA certificate ca.pem is self signed.
+2024-06-13T13:11:38.939539Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2024-06-13T13:11:38.969075Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-06-13T13:11:38.971090Z 0 [Note] IPv6 is available.
+2024-06-13T13:11:38.971995Z 0 [Note]   - '::' resolves to '::';
+2024-06-13T13:11:38.974523Z 0 [Note] Server socket created on IP: '::'.
+2024-06-13T13:11:38.977566Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2024-06-13T13:11:39.228984Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2024-06-13T13:11:39.230485Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2024-06-13T13:11:39.231799Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2024-06-13T13:11:39.233049Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2024-06-13T13:11:39.234160Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2024-06-13T13:11:39.329795Z 0 [Warning] System table 'servers' is expected to be transactional.
+2024-06-13T13:11:39.364474Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-13T13:11:39.379587Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-13T13:11:39.383063Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-13T13:11:39.385852Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2024-06-13T13:11:39.405881Z 0 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-13T13:11:39.409278Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-13T13:11:39.412003Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2024-06-13T13:11:39.413783Z 0 [Note] Failed to start slave threads for channel ''
+2024-06-13T13:11:39.440369Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-13T13:11:39.462157Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-13T13:11:39.491420Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-13T13:11:39.562351Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T13:11:39.582814Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T13:11:39.765882Z 0 [ERROR] 
+2024-06-13T13:11:39.828143Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2024-06-13T13:11:39.908282Z 0 [ERROR] 
+2024-06-13T13:11:39.928100Z 0 [ERROR] 
+2024-06-13T13:11:39.944935Z 0 [ERROR] 
+2024-06-13T13:11:39.960687Z 0 [ERROR] 
+2024-06-13T13:11:39.976364Z 0 [ERROR] 
+2024-06-13T13:11:40.004428Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T13:11:40.022907Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T13:11:40.067079Z 0 [ERROR] 
+2024-06-13T13:11:40.080840Z 0 [ERROR] 
+2024-06-13T13:11:40.095054Z 0 [ERROR] 
+2024-06-13T13:11:40.129048Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T13:11:40.144910Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T13:11:40.192864Z 0 [ERROR] 
+2024-06-13T13:11:40.193674Z 0 [ERROR] 
+2024-06-13T13:11:40.194306Z 0 [ERROR] 
+2024-06-13T13:11:40.194916Z 0 [ERROR] 
+2024-06-13T13:11:40.195593Z 0 [ERROR] 
+2024-06-13T13:11:40.196227Z 0 [ERROR] 
+2024-06-13T13:11:40.196830Z 0 [ERROR] 
+2024-06-13T13:11:40.197463Z 0 [ERROR] 
+2024-06-13T13:11:40.198062Z 0 [ERROR] 
+2024-06-13T13:11:40.208451Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T13:11:40.225223Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T13:11:40.323479Z 0 [ERROR] 
+2024-06-13T13:11:40.324397Z 0 [ERROR] 
+2024-06-13T13:11:40.325094Z 0 [ERROR] 
+2024-06-13T13:11:40.325774Z 0 [ERROR] 
+2024-06-13T13:11:40.326417Z 0 [ERROR] 
+2024-06-13T13:11:40.327041Z 0 [ERROR] 
+2024-06-13T13:11:40.327650Z 0 [ERROR] 
+2024-06-13T13:11:40.328275Z 0 [ERROR] 
+2024-06-13T13:11:40.328908Z 0 [ERROR] 
+2024-06-13T13:11:40.329524Z 0 [ERROR] 
+2024-06-13T13:11:40.330144Z 0 [ERROR] 
+2024-06-13T13:11:40.330765Z 0 [ERROR] 
+2024-06-13T13:11:40.331399Z 0 [ERROR] 
+2024-06-13T13:11:40.332031Z 0 [ERROR] 
+2024-06-13T13:11:40.332683Z 0 [ERROR] 
+2024-06-13T13:11:40.333321Z 0 [ERROR] 
+2024-06-13T13:11:40.334031Z 0 [ERROR] 
+2024-06-13T13:11:40.334785Z 0 [ERROR] 
+2024-06-13T13:11:40.335483Z 0 [ERROR] 
+2024-06-13T13:11:40.336236Z 0 [ERROR] 
+2024-06-13T13:11:40.336874Z 0 [ERROR] 
+2024-06-13T13:11:40.338285Z 0 [ERROR] 
+2024-06-13T13:11:40.340195Z 0 [ERROR] 
+2024-06-13T13:11:40.341106Z 0 [ERROR] 
+2024-06-13T13:11:40.341708Z 0 [ERROR] 
+2024-06-13T13:11:40.342312Z 0 [ERROR] 
+2024-06-13T13:11:40.343226Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2024-06-13T13:11:40.345135Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2024-06-13T13:11:40.368964Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2024-06-13T13:11:40.371742Z 0 [Note] 
+2024-06-13T14:02:18.244423Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 233266ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-13T15:15:32.344352Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1588253ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-13T16:22:51.454631Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-06-13T16:22:51.454722Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-06-13T16:22:51.455543Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-06-13T16:22:51.455565Z 0 [Note] C:\Users\kovan\OneDrive\Desktop\elogbook/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 19480 ...
+2024-06-13T16:22:51.457076Z 0 [ERROR] Error message file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2024-06-13T16:22:51.498437Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-06-13T16:22:51.499646Z 0 [Note] InnoDB: Uses event mutexes
+2024-06-13T16:22:51.500423Z 0 [Note] InnoDB: Memory barrier is not used
+2024-06-13T16:22:51.501330Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-06-13T16:22:51.502841Z 0 [Note] InnoDB: Number of pools: 1
+2024-06-13T16:22:51.503580Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-06-13T16:22:51.510456Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-06-13T16:22:51.520389Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-13T16:22:51.594221Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-06-13T16:22:51.596855Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1753026
+2024-06-13T16:22:51.597875Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1753035
+2024-06-13T16:22:51.599082Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-06-13T16:22:51.600131Z 0 [Note] InnoDB: Starting crash recovery.
+2024-06-13T16:22:51.884416Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-06-13T16:22:51.885664Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-06-13T16:22:51.887936Z 0 [Note] InnoDB: Setting file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-06-13T16:22:51.913974Z 0 [Note] InnoDB: File 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size is now 12 MB.
+2024-06-13T16:22:51.956536Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-06-13T16:22:51.957911Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-06-13T16:22:51.961026Z 0 [Note] InnoDB: Waiting for purge to start
+2024-06-13T16:22:52.014786Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 1753035
+2024-06-13T16:22:52.017724Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool
+2024-06-13T16:22:52.018624Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-06-13T16:22:52.019880Z 0 [ERROR] InnoDB: Cannot open 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2024-06-13T16:22:52.034471Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2024-06-13T16:22:52.047385Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2024-06-13T16:22:52.068041Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2024-06-13T16:22:52.070153Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2024-06-13T16:22:52.071818Z 0 [Warning] 
+2024-06-13T16:22:52.072326Z 0 [Warning] 
+2024-06-13T16:22:52.084851Z 0 [Warning] CA certificate ca.pem is self signed.
+2024-06-13T16:22:52.087459Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2024-06-13T16:22:52.090230Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-06-13T16:22:52.091690Z 0 [Note] IPv6 is available.
+2024-06-13T16:22:52.094311Z 0 [Note]   - '::' resolves to '::';
+2024-06-13T16:22:52.095291Z 0 [Note] Server socket created on IP: '::'.
+2024-06-13T16:22:52.098207Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2024-06-13T16:22:52.179212Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2024-06-13T16:22:52.180312Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2024-06-13T16:22:52.181318Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2024-06-13T16:22:52.182314Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2024-06-13T16:22:52.183432Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2024-06-13T16:22:52.196684Z 0 [Warning] System table 'servers' is expected to be transactional.
+2024-06-13T16:22:52.204590Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-13T16:22:52.210289Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-13T16:22:52.213591Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-13T16:22:52.217160Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2024-06-13T16:22:52.220359Z 0 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-13T16:22:52.224490Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-13T16:22:52.228470Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2024-06-13T16:22:52.230458Z 0 [Note] Failed to start slave threads for channel ''
+2024-06-13T16:22:52.233916Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-13T16:22:52.237738Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-13T16:22:52.243144Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-13T16:22:52.251374Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T16:22:52.255146Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T16:22:52.269337Z 0 [ERROR] 
+2024-06-13T16:22:52.272516Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2024-06-13T16:22:52.280220Z 0 [ERROR] 
+2024-06-13T16:22:52.281785Z 0 [ERROR] 
+2024-06-13T16:22:52.283202Z 0 [ERROR] 
+2024-06-13T16:22:52.284961Z 0 [ERROR] 
+2024-06-13T16:22:52.286161Z 0 [ERROR] 
+2024-06-13T16:22:52.288957Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T16:22:52.292967Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T16:22:52.298901Z 0 [ERROR] 
+2024-06-13T16:22:52.300443Z 0 [ERROR] 
+2024-06-13T16:22:52.301694Z 0 [ERROR] 
+2024-06-13T16:22:52.304807Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T16:22:52.308014Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T16:22:52.315100Z 0 [ERROR] 
+2024-06-13T16:22:52.315760Z 0 [ERROR] 
+2024-06-13T16:22:52.316374Z 0 [ERROR] 
+2024-06-13T16:22:52.316990Z 0 [ERROR] 
+2024-06-13T16:22:52.317611Z 0 [ERROR] 
+2024-06-13T16:22:52.322157Z 0 [ERROR] 
+2024-06-13T16:22:52.323093Z 0 [ERROR] 
+2024-06-13T16:22:52.324033Z 0 [ERROR] 
+2024-06-13T16:22:52.326509Z 0 [ERROR] 
+2024-06-13T16:22:52.330429Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T16:22:52.333894Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-13T16:22:52.345121Z 0 [ERROR] 
+2024-06-13T16:22:52.345851Z 0 [ERROR] 
+2024-06-13T16:22:52.346667Z 0 [ERROR] 
+2024-06-13T16:22:52.347315Z 0 [ERROR] 
+2024-06-13T16:22:52.347996Z 0 [ERROR] 
+2024-06-13T16:22:52.348741Z 0 [ERROR] 
+2024-06-13T16:22:52.349457Z 0 [ERROR] 
+2024-06-13T16:22:52.350280Z 0 [ERROR] 
+2024-06-13T16:22:52.351011Z 0 [ERROR] 
+2024-06-13T16:22:52.351712Z 0 [ERROR] 
+2024-06-13T16:22:52.352418Z 0 [ERROR] 
+2024-06-13T16:22:52.353101Z 0 [ERROR] 
+2024-06-13T16:22:52.353762Z 0 [ERROR] 
+2024-06-13T16:22:52.354480Z 0 [ERROR] 
+2024-06-13T16:22:52.355279Z 0 [ERROR] 
+2024-06-13T16:22:52.355985Z 0 [ERROR] 
+2024-06-13T16:22:52.357037Z 0 [ERROR] 
+2024-06-13T16:22:52.357985Z 0 [ERROR] 
+2024-06-13T16:22:52.359704Z 0 [ERROR] 
+2024-06-13T16:22:52.360510Z 0 [ERROR] 
+2024-06-13T16:22:52.361186Z 0 [ERROR] 
+2024-06-13T16:22:52.361826Z 0 [ERROR] 
+2024-06-13T16:22:52.362442Z 0 [ERROR] 
+2024-06-13T16:22:52.363142Z 0 [ERROR] 
+2024-06-13T16:22:52.363918Z 0 [ERROR] 
+2024-06-13T16:22:52.364986Z 0 [ERROR] 
+2024-06-13T16:22:52.366318Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2024-06-13T16:22:52.368423Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2024-06-13T16:22:52.383474Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2024-06-13T16:22:52.385252Z 0 [Note] 
+2024-06-13T17:20:28.290002Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 35537ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-13T19:12:41.376123Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4987646ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-17T14:51:11.552743Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-06-17T14:51:11.553589Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-06-17T14:51:11.556069Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-06-17T14:51:11.556103Z 0 [Note] C:\Users\kovan\OneDrive\Desktop\elogbook/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 2972 ...
+2024-06-17T14:51:11.565247Z 0 [ERROR] Error message file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2024-06-17T14:51:11.636721Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-06-17T14:51:11.637991Z 0 [Note] InnoDB: Uses event mutexes
+2024-06-17T14:51:11.638774Z 0 [Note] InnoDB: Memory barrier is not used
+2024-06-17T14:51:11.639666Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-06-17T14:51:11.642992Z 0 [Note] InnoDB: Number of pools: 1
+2024-06-17T14:51:11.646177Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-06-17T14:51:11.652926Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-06-17T14:51:11.664671Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-17T14:51:11.745159Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-06-17T14:51:11.749497Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1753054
+2024-06-17T14:51:11.750835Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1753063
+2024-06-17T14:51:11.752215Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-06-17T14:51:11.753256Z 0 [Note] InnoDB: Starting crash recovery.
+2024-06-17T14:51:12.096790Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-06-17T14:51:12.098043Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-06-17T14:51:12.100560Z 0 [Note] InnoDB: Setting file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-06-17T14:51:12.136557Z 0 [Note] InnoDB: File 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size is now 12 MB.
+2024-06-17T14:51:12.168239Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-06-17T14:51:12.169856Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-06-17T14:51:12.171685Z 0 [Note] InnoDB: Waiting for purge to start
+2024-06-17T14:51:12.239993Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 1753063
+2024-06-17T14:51:12.243079Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-06-17T14:51:12.244325Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool
+2024-06-17T14:51:12.247931Z 0 [ERROR] InnoDB: Cannot open 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2024-06-17T14:51:12.275692Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2024-06-17T14:51:12.294149Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2024-06-17T14:51:12.310607Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2024-06-17T14:51:12.313041Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2024-06-17T14:51:12.314579Z 0 [Warning] 
+2024-06-17T14:51:12.314989Z 0 [Warning] 
+2024-06-17T14:51:12.351027Z 0 [Warning] CA certificate ca.pem is self signed.
+2024-06-17T14:51:12.352488Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2024-06-17T14:51:12.372744Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-06-17T14:51:12.374152Z 0 [Note] IPv6 is available.
+2024-06-17T14:51:12.375094Z 0 [Note]   - '::' resolves to '::';
+2024-06-17T14:51:12.375807Z 0 [Note] Server socket created on IP: '::'.
+2024-06-17T14:51:12.378988Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2024-06-17T14:51:12.598779Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2024-06-17T14:51:12.599869Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2024-06-17T14:51:12.600874Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2024-06-17T14:51:12.601897Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2024-06-17T14:51:12.602978Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2024-06-17T14:51:12.675110Z 0 [Warning] System table 'servers' is expected to be transactional.
+2024-06-17T14:51:12.714304Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-17T14:51:12.725707Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-17T14:51:12.730027Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-17T14:51:12.733239Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2024-06-17T14:51:12.750281Z 0 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-17T14:51:12.754540Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-17T14:51:12.759746Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2024-06-17T14:51:12.762105Z 0 [Note] Failed to start slave threads for channel ''
+2024-06-17T14:51:12.787204Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-17T14:51:12.808659Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-17T14:51:12.824889Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-17T14:51:12.880736Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-17T14:51:12.894127Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-17T14:51:13.022728Z 0 [ERROR] 
+2024-06-17T14:51:13.054825Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2024-06-17T14:51:13.104411Z 0 [ERROR] 
+2024-06-17T14:51:13.115021Z 0 [ERROR] 
+2024-06-17T14:51:13.129953Z 0 [ERROR] 
+2024-06-17T14:51:13.145675Z 0 [ERROR] 
+2024-06-17T14:51:13.158141Z 0 [ERROR] 
+2024-06-17T14:51:13.186911Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-17T14:51:13.202379Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-17T14:51:13.241908Z 0 [ERROR] 
+2024-06-17T14:51:13.253971Z 0 [ERROR] 
+2024-06-17T14:51:13.265907Z 0 [ERROR] 
+2024-06-17T14:51:13.290554Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-17T14:51:13.303754Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-17T14:51:13.341891Z 0 [ERROR] 
+2024-06-17T14:51:13.342519Z 0 [ERROR] 
+2024-06-17T14:51:13.343123Z 0 [ERROR] 
+2024-06-17T14:51:13.343996Z 0 [ERROR] 
+2024-06-17T14:51:13.345220Z 0 [ERROR] 
+2024-06-17T14:51:13.345995Z 0 [ERROR] 
+2024-06-17T14:51:13.346610Z 0 [ERROR] 
+2024-06-17T14:51:13.347213Z 0 [ERROR] 
+2024-06-17T14:51:13.347819Z 0 [ERROR] 
+2024-06-17T14:51:13.356034Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-17T14:51:13.370162Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-17T14:51:13.444299Z 0 [ERROR] 
+2024-06-17T14:51:13.444981Z 0 [ERROR] 
+2024-06-17T14:51:13.445612Z 0 [ERROR] 
+2024-06-17T14:51:13.446231Z 0 [ERROR] 
+2024-06-17T14:51:13.446867Z 0 [ERROR] 
+2024-06-17T14:51:13.447509Z 0 [ERROR] 
+2024-06-17T14:51:13.448123Z 0 [ERROR] 
+2024-06-17T14:51:13.448755Z 0 [ERROR] 
+2024-06-17T14:51:13.449374Z 0 [ERROR] 
+2024-06-17T14:51:13.449994Z 0 [ERROR] 
+2024-06-17T14:51:13.450656Z 0 [ERROR] 
+2024-06-17T14:51:13.451274Z 0 [ERROR] 
+2024-06-17T14:51:13.451904Z 0 [ERROR] 
+2024-06-17T14:51:13.452573Z 0 [ERROR] 
+2024-06-17T14:51:13.453203Z 0 [ERROR] 
+2024-06-17T14:51:13.453823Z 0 [ERROR] 
+2024-06-17T14:51:13.454446Z 0 [ERROR] 
+2024-06-17T14:51:13.455065Z 0 [ERROR] 
+2024-06-17T14:51:13.455675Z 0 [ERROR] 
+2024-06-17T14:51:13.456286Z 0 [ERROR] 
+2024-06-17T14:51:13.457000Z 0 [ERROR] 
+2024-06-17T14:51:13.457643Z 0 [ERROR] 
+2024-06-17T14:51:13.458268Z 0 [ERROR] 
+2024-06-17T14:51:13.459123Z 0 [ERROR] 
+2024-06-17T14:51:13.459856Z 0 [ERROR] 
+2024-06-17T14:51:13.461213Z 0 [ERROR] 
+2024-06-17T14:51:13.462298Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2024-06-17T14:51:13.463839Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2024-06-17T14:51:13.482848Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2024-06-17T14:51:13.484332Z 0 [Note] 
+2024-06-17T14:51:40.011203Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-17T14:51:40.012780Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-17T14:51:40.042673Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-17T14:51:40.043926Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`station` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-17T14:51:41.813406Z 3 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-17T14:51:41.814290Z 3 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-17T14:51:46.259121Z 4 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-17T14:51:46.260418Z 4 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-17T15:00:49.032635Z 7 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-17T15:00:49.033765Z 7 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-17T15:09:56.945095Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 82157ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-17T17:13:35.646884Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7021448ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-17T17:25:24.844412Z 14 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-17T17:25:24.845651Z 14 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-17T19:14:42.282453Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4334927ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-18T13:25:51.127330Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-06-18T13:25:51.128246Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-06-18T13:25:51.130969Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-06-18T13:25:51.131007Z 0 [Note] C:\Users\kovan\OneDrive\Desktop\elogbook/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 23876 ...
+2024-06-18T13:25:51.141218Z 0 [ERROR] Error message file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2024-06-18T13:25:51.203881Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-06-18T13:25:51.205161Z 0 [Note] InnoDB: Uses event mutexes
+2024-06-18T13:25:51.205942Z 0 [Note] InnoDB: Memory barrier is not used
+2024-06-18T13:25:51.206782Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-06-18T13:25:51.210054Z 0 [Note] InnoDB: Number of pools: 1
+2024-06-18T13:25:51.213355Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-06-18T13:25:51.220596Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-06-18T13:25:51.229320Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-18T13:25:51.331033Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-06-18T13:25:51.335245Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1753107
+2024-06-18T13:25:51.336161Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1753116
+2024-06-18T13:25:51.337090Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-06-18T13:25:51.337813Z 0 [Note] InnoDB: Starting crash recovery.
+2024-06-18T13:25:51.661827Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-06-18T13:25:51.663083Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-06-18T13:25:51.665733Z 0 [Note] InnoDB: Setting file 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-06-18T13:25:51.710200Z 0 [Note] InnoDB: File 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ibtmp1' size is now 12 MB.
+2024-06-18T13:25:51.784794Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-06-18T13:25:51.786289Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-06-18T13:25:51.788002Z 0 [Note] InnoDB: Waiting for purge to start
+2024-06-18T13:25:51.850058Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 1753116
+2024-06-18T13:25:51.852724Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool
+2024-06-18T13:25:51.852895Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-06-18T13:25:51.855675Z 0 [ERROR] InnoDB: Cannot open 'C:\Users\kovan\OneDrive\Desktop\elogbook\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2024-06-18T13:25:51.888462Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2024-06-18T13:25:51.905654Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2024-06-18T13:25:51.923505Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2024-06-18T13:25:51.925340Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2024-06-18T13:25:51.926872Z 0 [Warning] 
+2024-06-18T13:25:51.927356Z 0 [Warning] 
+2024-06-18T13:25:51.969100Z 0 [Warning] CA certificate ca.pem is self signed.
+2024-06-18T13:25:51.970883Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2024-06-18T13:25:51.988059Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-06-18T13:25:51.989495Z 0 [Note] IPv6 is available.
+2024-06-18T13:25:51.990666Z 0 [Note]   - '::' resolves to '::';
+2024-06-18T13:25:51.991397Z 0 [Note] Server socket created on IP: '::'.
+2024-06-18T13:25:51.994349Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2024-06-18T13:25:52.288357Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2024-06-18T13:25:52.289512Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2024-06-18T13:25:52.290518Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2024-06-18T13:25:52.291474Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2024-06-18T13:25:52.292700Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2024-06-18T13:25:52.434613Z 0 [Warning] System table 'servers' is expected to be transactional.
+2024-06-18T13:25:52.488103Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-18T13:25:52.504838Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-18T13:25:52.509948Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-18T13:25:52.512864Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2024-06-18T13:25:52.536191Z 0 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-18T13:25:52.539605Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-06-18T13:25:52.542465Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2024-06-18T13:25:52.545758Z 0 [Note] Failed to start slave threads for channel ''
+2024-06-18T13:25:52.580715Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-18T13:25:52.594721Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-18T13:25:52.612604Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-06-18T13:25:52.673035Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-18T13:25:52.699269Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-18T13:25:52.854746Z 0 [ERROR] 
+2024-06-18T13:25:52.895247Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2024-06-18T13:25:52.954943Z 0 [ERROR] 
+2024-06-18T13:25:52.966915Z 0 [ERROR] 
+2024-06-18T13:25:52.982154Z 0 [ERROR] 
+2024-06-18T13:25:52.999979Z 0 [ERROR] 
+2024-06-18T13:25:53.015788Z 0 [ERROR] 
+2024-06-18T13:25:53.044266Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-18T13:25:53.058958Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-18T13:25:53.108716Z 0 [ERROR] 
+2024-06-18T13:25:53.122599Z 0 [ERROR] 
+2024-06-18T13:25:53.141064Z 0 [ERROR] 
+2024-06-18T13:25:53.174179Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-18T13:25:53.190163Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-18T13:25:53.236360Z 0 [ERROR] 
+2024-06-18T13:25:53.237205Z 0 [ERROR] 
+2024-06-18T13:25:53.237884Z 0 [ERROR] 
+2024-06-18T13:25:53.238513Z 0 [ERROR] 
+2024-06-18T13:25:53.239193Z 0 [ERROR] 
+2024-06-18T13:25:53.239962Z 0 [ERROR] 
+2024-06-18T13:25:53.240886Z 0 [ERROR] 
+2024-06-18T13:25:53.242011Z 0 [ERROR] 
+2024-06-18T13:25:53.243121Z 0 [ERROR] 
+2024-06-18T13:25:53.254090Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-18T13:25:53.267484Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-06-18T13:25:53.350958Z 0 [ERROR] 
+2024-06-18T13:25:53.351608Z 0 [ERROR] 
+2024-06-18T13:25:53.352221Z 0 [ERROR] 
+2024-06-18T13:25:53.352826Z 0 [ERROR] 
+2024-06-18T13:25:53.353468Z 0 [ERROR] 
+2024-06-18T13:25:53.354163Z 0 [ERROR] 
+2024-06-18T13:25:53.354801Z 0 [ERROR] 
+2024-06-18T13:25:53.355415Z 0 [ERROR] 
+2024-06-18T13:25:53.356026Z 0 [ERROR] 
+2024-06-18T13:25:53.356633Z 0 [ERROR] 
+2024-06-18T13:25:53.357241Z 0 [ERROR] 
+2024-06-18T13:25:53.357863Z 0 [ERROR] 
+2024-06-18T13:25:53.358517Z 0 [ERROR] 
+2024-06-18T13:25:53.359129Z 0 [ERROR] 
+2024-06-18T13:25:53.359733Z 0 [ERROR] 
+2024-06-18T13:25:53.360328Z 0 [ERROR] 
+2024-06-18T13:25:53.360925Z 0 [ERROR] 
+2024-06-18T13:25:53.361525Z 0 [ERROR] 
+2024-06-18T13:25:53.362122Z 0 [ERROR] 
+2024-06-18T13:25:53.363115Z 0 [ERROR] 
+2024-06-18T13:25:53.363981Z 0 [ERROR] 
+2024-06-18T13:25:53.364604Z 0 [ERROR] 
+2024-06-18T13:25:53.365228Z 0 [ERROR] 
+2024-06-18T13:25:53.365853Z 0 [ERROR] 
+2024-06-18T13:25:53.366460Z 0 [ERROR] 
+2024-06-18T13:25:53.367062Z 0 [ERROR] 
+2024-06-18T13:25:53.368021Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2024-06-18T13:25:53.369581Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2024-06-18T13:25:53.388991Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2024-06-18T13:25:53.390636Z 0 [Note] 
+2024-06-18T13:26:48.906525Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-18T13:26:48.908131Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise_has_instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-18T13:26:48.939400Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-18T13:26:48.940397Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`station` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-18T13:29:32.224232Z 3 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-18T13:29:32.225258Z 3 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`cruise` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-18T13:55:08.074521Z 7 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-18T13:55:08.076536Z 7 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`logs` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-18T14:06:44.779389Z 41 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-18T14:06:44.780246Z 41 [ERROR] InnoDB: Fetch of persistent statistics requested for table `sakila`.`instruments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.

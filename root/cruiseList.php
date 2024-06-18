@@ -106,8 +106,21 @@
                                             </form>
 
                                           </th>";
+
                                     echo "<th> <a href='TBD.php'> <button>Edit Cruise</button> </a>  </th>";
-                                    echo "<th> <a href='TBD.php'> <button>Export Data</button> </a>  </th>";
+
+                                    echo "<th> 
+
+                                    <form action='exportData.php' method='get' >
+
+                                                <input id='$c_id' type='hidden' name='CID' value='$c_id' />
+                                                <input id='$c_name' type='hidden' name='CNAME' value='$$c_name' />
+
+                                                <a href='exportData.php'><button type='submit'>Export Data</button></a>
+                                                
+                                            </form>
+                            
+                                    </th>";
 
                                     echo "</tr>";
                                 }
