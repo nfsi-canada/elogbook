@@ -44,29 +44,7 @@
                 
                 <div class="dataText-container">
 
-                <button type="button" onclick="tableToCSV()">
-                    download CSV
-                </button>
-
                 <table id="clItems">
-
-                <tr>
-                <th>Crusie General Info</th>
-                </tr>
-
-                <tr>
-
-                    <th>NAME</th>
-                    <th>Crusie ID</th>
-                    <th>Ship ID</th>
-                    <th>Ship Name</th>
-                    <th>Arival Port</th>
-                    <th>Departure Port</th>
-                    <th>LOCATION</th>
-                    <th>START DATE</th>
-                    <th>END DATE</th>
-
-                </tr>
 
                 <?php
                     $host = "localhost";
@@ -84,51 +62,17 @@
                     $c_id = $_GET["CID"]; 
                     $cName = $_GET["CNAME"];  
 
-                    $sql = "SELECT c_name, c_id, s_id, s_name, ap_name, dp_name, location, s_date, e_date  FROM cruise WHERE c_id = $c_id";
-                    $result = $mysqli->query($sql);
+            
+                    echo "<p>Logs from $cName </p>";
 
-                    if ($result->num_rows > 0) {
-                        while($row = $result->fetch_assoc()) {
-
-                            $c_name = $row["c_name"];
-                            $c_id = $row["c_id"];
-                            $s_id = $row["s_id"];
-                            $s_name = $row["s_name"];
-                            $ap_name = $row["ap_name"];
-                            $dp_name = $row["dp_name"];
-                            $location = $row["location"];
-                            $s_date = $row["s_date"];
-                            $e_date = $row["e_date"];
-
-                            echo "<tr>";
-                            echo "<td>$c_name</td>";
-                            echo "<td>$c_id</td>";
-                            echo "<td>$s_id</td>";
-                            echo "<td>$s_name</td>";
-                            echo "<td>$ap_name</td>";
-                            echo "<td>$dp_name</td>";
-                            echo "<td>$location</td>";
-                            echo "<td>$s_date</td>";
-                            echo "<td>$e_date</td>";
-                            echo "</tr>";
-
-                            echo "<tr>";
-                            echo "<td> &zwnj; </td>";
-                            echo "<td> &zwnj; </td>";
-                            echo "<td> &zwnj; </td>";
-                            echo "<td> &zwnj; </td>";
-                            echo "<td> &zwnj; </td>";
-                            echo "<td> &zwnj; </td>";
-                            echo "<td> &zwnj; </td>";
-                            echo "<td> &zwnj; </td>";
-                            echo "<td> &zwnj; </td>";
-                            echo "</tr>";
-
-                            echo "<tr>";
-                            echo "<td>Logs</td>";
-                            echo "</tr>";
-                        }
-                    }
+                    echo "<tr>";
+                    echo "<td>DATE</td>";
+                    echo "<td>TIME</td>";
+                    echo "<td>TYPE</td>";
+                    echo "<td>TEXT</td>";
+                    echo "<td>AUTHOR</td>";
+                    echo "</tr>";
+                    
                     $sql = "SELECT log_id, date, time, type, text, crew_crew_name1  FROM logs WHERE cruise_c_id = $c_id ORDER BY date DESC, time DESC";
                     $result = $mysqli->query($sql);
 
@@ -152,10 +96,11 @@
                             echo "<tr>";
                         }
                     }
-    $mysqli->close();
-    ?>
+                
+                $mysqli->close();
+                ?>
 
-</table>
+                </table>
 
                 </div>
                 <!-- Sub Flex Container End -->
@@ -224,8 +169,10 @@
                 // trigger download
                 temp_link.click();
                 document.body.removeChild(temp_link);
+                
+                window.location = '../cruiseList.php'
             }
+            window.onload = tableToCSV;
         </script>
-    
     </body>
 </html>
